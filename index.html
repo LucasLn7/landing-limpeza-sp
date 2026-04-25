@@ -1458,6 +1458,7 @@
       overflow: hidden;
       border-radius: var(--radius-lg);
       box-shadow: var(--shadow-xl);
+      touch-action: pan-y
     }
 
     .ad-track {
@@ -2796,7 +2797,7 @@
     }, { passive: true });
 
     track.addEventListener('touchend', () => {
-      if (Math.abs(touchDeltaX) > 500) {
+      if (Math.abs(touchDeltaX) > 50) {
         touchDeltaX < 0 ? next() : prev();
         resetAuto();
       }
