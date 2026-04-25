@@ -2796,7 +2796,7 @@
     }, { passive: true });
 
     track.addEventListener('touchend', () => {
-      if (Math.abs(touchDeltaX) > 50) {
+      if (Math.abs(touchDeltaX) > 500) {
         touchDeltaX < 0 ? next() : prev();
         resetAuto();
       }
