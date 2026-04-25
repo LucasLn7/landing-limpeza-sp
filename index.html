@@ -1458,7 +1458,9 @@
       overflow: hidden;
       border-radius: var(--radius-lg);
       box-shadow: var(--shadow-xl);
-      touch-action: pan-y
+      touch-action: pan-y;
+      -webkit-user-select: none;
+      user-select: none;
     }
 
     .ad-track {
@@ -1466,6 +1468,12 @@
       /* width set by JS: 100% * number_of_slides */
       transition: transform .65s cubic-bezier(.77,0,.175,1);
       will-change: transform;
+    }
+    .ad-track.is-dragging {
+      transition: none;
+    }
+    .ad-track.is-dragging .ad-panel-img {
+      pointer-events: none;
     }
 
     /* Each slide = one before+after pair */
@@ -2447,8 +2455,7 @@
       </nav>
     </div>
     <div class="footer-copy">
-      <p>© 2025 Carlos Silva · Todos os direitos reservados</p>
-      <p>Feito com muito capricho 🧹</p>
+      <p>© 2026 Carlos Silva · Todos os direitos reservados</p>
     </div>
   </div>
 </footer>
@@ -2783,25 +2790,72 @@
       if (e.key === 'ArrowLeft')  { prev(); resetAuto(); }
     });
 
-    /* Touch / swipe */
+    /* Touch / swipe — drag preview + direction detection */
+    const trackOuter = track.parentElement;
     let touchStartX = 0;
+    let touchStartY = 0;
     let touchDeltaX = 0;
+    let isDragging  = false;
+    let lockedAxis  = null; /* 'x' | 'y' | null */
 
-    track.addEventListener('touchstart', e => {
-      touchStartX = e.touches[0].clientX;
+    trackOuter.addEventListener('touchstart', e => {
+      if (isAnimating) return;
+      const t = e.touches[0];
+      touchStartX = t.clientX;
+      touchStartY = t.clientY;
       touchDeltaX = 0;
+      lockedAxis  = null;
+      isDragging  = true;
+      clearInterval(autoTimer);
     }, { passive: true });
 
-    track.addEventListener('touchmove', e => {
-      touchDeltaX = e.touches[0].clientX - touchStartX;
-    }, { passive: true });
+    trackOuter.addEventListener('touchmove', e => {
+      if (!isDragging) return;
+      const t  = e.touches[0];
+      const dx = t.clientX - touchStartX;
+      const dy = t.clientY - touchStartY;
 
-    track.addEventListener('touchend', () => {
-      if (Math.abs(touchDeltaX) > 50) {
-        touchDeltaX < 0 ? next() : prev();
-        resetAuto();
+      if (lockedAxis === null) {
+        if (Math.abs(dx) > 8 || Math.abs(dy) > 8) {
+          lockedAxis = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y';
+          if (lockedAxis === 'x') track.classList.add('is-dragging');
+        } else {
+          return;
+        }
       }
-    });
+
+      if (lockedAxis !== 'x') return;
+
+      touchDeltaX = dx;
+      const width = trackOuter.offsetWidth || 1;
+      const pct   = (touchDeltaX / width) * 100;
+      track.style.transform = `translateX(calc(-${current * 100}% + ${pct}%))`;
+    }, { passive: true });
+
+    function endTouch() {
+      if (!isDragging) return;
+      isDragging = false;
+      track.classList.remove('is-dragging');
+
+      if (lockedAxis === 'x') {
+        const width     = trackOuter.offsetWidth || 1;
+        const threshold = Math.max(40, width * 0.15);
+        if (touchDeltaX <= -threshold) {
+          next();
+        } else if (touchDeltaX >= threshold) {
+          prev();
+        } else {
+          /* snap back */
+          track.style.transform = `translateX(-${current * 100}%)`;
+        }
+        resetAuto();
+      } else {
+        startAuto();
+      }
+    }
+
+    trackOuter.addEventListener('touchend',    endTouch);
+    trackOuter.addEventListener('touchcancel', endTouch);
 
     /* Auto-advance every 4 seconds */
     function startAuto() {
