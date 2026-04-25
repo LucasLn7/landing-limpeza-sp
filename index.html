@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Carlos Silva – Diarista profissional em São Paulo. Mais de 5 anos de experiência, pontualidade garantida e resultado impecável. Solicite seu orçamento!" />
+  <meta name="description"
+    content="Carlos Silva – Diarista profissional em São Paulo. Mais de 5 anos de experiência, pontualidade garantida e resultado impecável. Solicite seu orçamento!" />
   <meta name="keywords" content="diarista, limpeza, São Paulo, faxina, limpeza residencial, limpeza comercial" />
   <meta property="og:title" content="Carlinhos – Diarista Profissional SP" />
   <meta property="og:description" content="Seu espaço limpo e organizado, do jeito certo. Orçamento grátis!" />
@@ -12,13 +14,17 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+    rel="stylesheet" />
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <style>
     /* ============================================================
        RESET & BASE
     ============================================================ */
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
@@ -26,44 +32,44 @@
 
     :root {
       /* — Core palette */
-      --ink:        #0f1117;
-      --ink-mid:    #2a2d35;
-      --ink-soft:   #4a4f5e;
-      --stone:      #7c8190;
-      --mist:       #b8bcc8;
-      --fog:        #e8eaef;
-      --chalk:      #f4f5f7;
-      --white:      #ffffff;
+      --ink: #0f1117;
+      --ink-mid: #2a2d35;
+      --ink-soft: #4a4f5e;
+      --stone: #7c8190;
+      --mist: #b8bcc8;
+      --fog: #e8eaef;
+      --chalk: #f4f5f7;
+      --white: #ffffff;
 
       /* — Brand accent: warm amber + teal split */
-      --gold:       #c9a84c;
+      --gold: #c9a84c;
       --gold-light: #e8c96b;
-      --gold-dim:   #8a6c2a;
-      --teal:       #1a9e8f;
+      --gold-dim: #8a6c2a;
+      --teal: #1a9e8f;
       --teal-light: #22c5b3;
-      --teal-dim:   #0e6b61;
+      --teal-dim: #0e6b61;
 
       /* — WhatsApp */
-      --wa:         #25d366;
-      --wa-dark:    #128c4a;
+      --wa: #25d366;
+      --wa-dark: #128c4a;
 
       /* — Functional */
-      --radius-sm:  8px;
-      --radius-md:  16px;
-      --radius-lg:  28px;
-      --radius-xl:  48px;
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 28px;
+      --radius-xl: 48px;
 
-      --shadow-xs:  0 1px 3px rgba(15,17,23,.06);
-      --shadow-sm:  0 2px 8px rgba(15,17,23,.08);
-      --shadow-md:  0 6px 24px rgba(15,17,23,.11);
-      --shadow-lg:  0 16px 48px rgba(15,17,23,.15);
-      --shadow-xl:  0 32px 80px rgba(15,17,23,.20);
+      --shadow-xs: 0 1px 3px rgba(15, 17, 23, .06);
+      --shadow-sm: 0 2px 8px rgba(15, 17, 23, .08);
+      --shadow-md: 0 6px 24px rgba(15, 17, 23, .11);
+      --shadow-lg: 0 16px 48px rgba(15, 17, 23, .15);
+      --shadow-xl: 0 32px 80px rgba(15, 17, 23, .20);
 
-      --t-fast:     .15s cubic-bezier(.4,0,.2,1);
-      --t-med:      .28s cubic-bezier(.4,0,.2,1);
-      --t-slow:     .5s cubic-bezier(.4,0,.2,1);
+      --t-fast: .15s cubic-bezier(.4, 0, .2, 1);
+      --t-med: .28s cubic-bezier(.4, 0, .2, 1);
+      --t-slow: .5s cubic-bezier(.4, 0, .2, 1);
 
-      --header-h:   68px;
+      --header-h: 68px;
 
       /* — Grain overlay */
       --grain: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
@@ -83,10 +89,25 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    img, video { max-width: 100%; display: block; }
-    a { text-decoration: none; color: inherit; }
-    button { font-family: inherit; cursor: pointer; }
-    ul { list-style: none; }
+    img,
+    video {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    ul {
+      list-style: none;
+    }
 
     /* ============================================================
        UTILITIES
@@ -99,9 +120,15 @@
     }
 
     .sr-only {
-      position: absolute; width: 1px; height: 1px;
-      padding: 0; margin: -1px; overflow: hidden;
-      clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
     }
 
     .eyebrow {
@@ -115,6 +142,7 @@
       color: var(--gold);
       margin-bottom: 16px;
     }
+
     .eyebrow::before {
       content: '';
       display: block;
@@ -140,7 +168,9 @@
       line-height: 1.8;
     }
 
-    .italic { font-style: italic; }
+    .italic {
+      font-style: italic;
+    }
 
     /* ============================================================
        BUTTONS
@@ -160,46 +190,68 @@
       overflow: hidden;
       white-space: nowrap;
     }
+
     .btn::after {
       content: '';
       position: absolute;
       inset: 0;
-      background: linear-gradient(rgba(255,255,255,.12), transparent);
+      background: linear-gradient(rgba(255, 255, 255, .12), transparent);
       opacity: 0;
       transition: opacity var(--t-fast);
     }
-    .btn:hover::after { opacity: 1; }
-    .btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
-    .btn:active { transform: translateY(0); }
+
+    .btn:hover::after {
+      opacity: 1;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
 
     .btn-gold {
       background: linear-gradient(135deg, var(--gold), var(--gold-light));
       color: var(--ink);
-      box-shadow: 0 4px 16px rgba(201,168,76,.30);
+      box-shadow: 0 4px 16px rgba(201, 168, 76, .30);
     }
 
     .btn-wa {
       background: linear-gradient(135deg, #25d366, #20ba59);
       color: #fff;
-      box-shadow: 0 4px 16px rgba(37,211,102,.30);
+      box-shadow: 0 4px 16px rgba(37, 211, 102, .30);
     }
-    .btn-wa:hover { box-shadow: 0 8px 28px rgba(37,211,102,.40); }
+
+    .btn-wa:hover {
+      box-shadow: 0 8px 28px rgba(37, 211, 102, .40);
+    }
 
     .btn-outline {
       background: transparent;
       border: 1.5px solid var(--fog);
       color: var(--ink-soft);
     }
-    .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+    .btn-outline:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
 
     .btn-ghost-inv {
-      background: rgba(255,255,255,.10);
-      border: 1.5px solid rgba(255,255,255,.22);
+      background: rgba(255, 255, 255, .10);
+      border: 1.5px solid rgba(255, 255, 255, .22);
       color: #fff;
       backdrop-filter: blur(8px);
     }
 
-    .btn-lg { padding: 17px 34px; font-size: 1.03rem; border-radius: var(--radius-lg); }
+    .btn-lg {
+      padding: 17px 34px;
+      font-size: 1.03rem;
+      border-radius: var(--radius-lg);
+    }
 
     /* ============================================================
        HEADER / NAV
@@ -213,8 +265,9 @@
       height: var(--header-h);
       transition: background var(--t-med), box-shadow var(--t-med);
     }
+
     #site-header.scrolled {
-      background: rgba(255,255,255,.94);
+      background: rgba(255, 255, 255, .94);
       backdrop-filter: blur(16px);
       box-shadow: 0 1px 0 var(--fog), var(--shadow-xs);
     }
@@ -236,8 +289,10 @@
       flex-shrink: 0;
       margin-right: auto;
     }
+
     .nav-logo .logo-dot {
-      width: 8px; height: 8px;
+      width: 8px;
+      height: 8px;
       border-radius: 50%;
       background: var(--gold);
       display: inline-block;
@@ -248,6 +303,7 @@
       gap: 6px;
       align-items: center;
     }
+
     .nav-links a {
       padding: 6px 14px;
       font-size: .88rem;
@@ -256,6 +312,7 @@
       border-radius: var(--radius-sm);
       transition: color var(--t-fast), background var(--t-fast);
     }
+
     .nav-links a:hover {
       color: var(--ink);
       background: var(--chalk);
@@ -274,6 +331,7 @@
       border: none;
       padding: 4px;
     }
+
     .nav-burger span {
       display: block;
       height: 1.5px;
@@ -281,18 +339,39 @@
       border-radius: 2px;
       transition: width var(--t-fast), transform var(--t-fast), opacity var(--t-fast);
     }
-    .nav-burger span:nth-child(1) { width: 22px; }
-    .nav-burger span:nth-child(2) { width: 16px; }
-    .nav-burger span:nth-child(3) { width: 22px; }
-    .nav-burger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); width: 22px; }
-    .nav-burger.open span:nth-child(2) { opacity: 0; }
-    .nav-burger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); width: 22px; }
+
+    .nav-burger span:nth-child(1) {
+      width: 22px;
+    }
+
+    .nav-burger span:nth-child(2) {
+      width: 16px;
+    }
+
+    .nav-burger span:nth-child(3) {
+      width: 22px;
+    }
+
+    .nav-burger.open span:nth-child(1) {
+      transform: translateY(6.5px) rotate(45deg);
+      width: 22px;
+    }
+
+    .nav-burger.open span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .nav-burger.open span:nth-child(3) {
+      transform: translateY(-6.5px) rotate(-45deg);
+      width: 22px;
+    }
 
     /* Mobile drawer */
     .nav-drawer {
       position: fixed;
       top: var(--header-h);
-      left: 0; right: 0;
+      left: 0;
+      right: 0;
       background: var(--white);
       padding: 12px 28px 24px;
       border-bottom: 1px solid var(--fog);
@@ -302,10 +381,12 @@
       transition: transform var(--t-med), opacity var(--t-med);
       z-index: 899;
     }
+
     .nav-drawer.open {
       transform: translateY(0);
       opacity: 1;
     }
+
     .nav-drawer a {
       display: block;
       padding: 12px 0;
@@ -314,12 +395,26 @@
       color: var(--ink);
       border-bottom: 1px solid var(--fog);
     }
-    .nav-drawer a:last-child { border-bottom: none; }
-    .nav-drawer .drawer-cta { margin-top: 16px; width: 100%; }
+
+    .nav-drawer a:last-child {
+      border-bottom: none;
+    }
+
+    .nav-drawer .drawer-cta {
+      margin-top: 16px;
+      width: 100%;
+    }
 
     @media (max-width: 780px) {
-      .nav-links, .nav-cta-desktop { display: none; }
-      .nav-burger { display: flex; }
+
+      .nav-links,
+      .nav-cta-desktop {
+        display: none;
+      }
+
+      .nav-burger {
+        display: flex;
+      }
     }
 
     /* ============================================================
@@ -343,22 +438,30 @@
       pointer-events: none;
       overflow: hidden;
     }
+
     .hero-bg-circle {
       position: absolute;
       border-radius: 50%;
       filter: blur(80px);
       opacity: .18;
     }
+
     .hbc-1 {
-      width: 700px; height: 700px;
+      width: 700px;
+      height: 700px;
       background: radial-gradient(circle, var(--gold), transparent 70%);
-      top: -200px; right: -180px;
+      top: -200px;
+      right: -180px;
     }
+
     .hbc-2 {
-      width: 500px; height: 500px;
+      width: 500px;
+      height: 500px;
       background: radial-gradient(circle, var(--teal), transparent 70%);
-      bottom: -100px; left: -100px;
+      bottom: -100px;
+      left: -100px;
     }
+
     .hero-grain {
       position: absolute;
       inset: 0;
@@ -385,8 +488,8 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: rgba(201,168,76,.12);
-      border: 1px solid rgba(201,168,76,.28);
+      background: rgba(201, 168, 76, .12);
+      border: 1px solid rgba(201, 168, 76, .28);
       border-radius: 99px;
       padding: 6px 16px 6px 8px;
       font-size: .78rem;
@@ -395,8 +498,10 @@
       letter-spacing: .04em;
       margin-bottom: 28px;
     }
+
     .hero-badge-dot {
-      width: 20px; height: 20px;
+      width: 20px;
+      height: 20px;
       border-radius: 50%;
       background: var(--gold);
       display: flex;
@@ -414,6 +519,7 @@
       margin-bottom: 24px;
       letter-spacing: -.01em;
     }
+
     .hero-title .accent {
       font-style: italic;
       background: linear-gradient(135deg, var(--gold-light), var(--gold));
@@ -441,10 +547,12 @@
       gap: 32px;
       margin-top: 48px;
       padding-top: 40px;
-      border-top: 1px solid rgba(255,255,255,.08);
+      border-top: 1px solid rgba(255, 255, 255, .08);
       flex-wrap: wrap;
     }
+
     .stat-item {}
+
     .stat-num {
       font-family: 'DM Serif Display', serif;
       font-size: 2.1rem;
@@ -452,6 +560,7 @@
       line-height: 1;
       margin-bottom: 4px;
     }
+
     .stat-label {
       font-size: .78rem;
       color: var(--stone);
@@ -466,24 +575,28 @@
     }
 
     .hero-card {
-      background: rgba(255,255,255,.05);
-      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(255, 255, 255, .05);
+      border: 1px solid rgba(255, 255, 255, .10);
       border-radius: var(--radius-lg);
       padding: 32px;
       backdrop-filter: blur(12px);
       position: relative;
       overflow: hidden;
     }
+
     .hero-card::before {
       content: '';
       position: absolute;
-      top: 0; left: 0; right: 0;
+      top: 0;
+      left: 0;
+      right: 0;
       height: 3px;
       background: linear-gradient(90deg, var(--gold), var(--teal));
     }
 
     .hero-card-avatar {
-      width: 72px; height: 72px;
+      width: 72px;
+      height: 72px;
       border-radius: 50%;
       background: linear-gradient(135deg, var(--gold-dim), var(--gold));
       display: flex;
@@ -493,7 +606,7 @@
       font-size: 1.8rem;
       color: var(--ink);
       margin-bottom: 20px;
-      border: 3px solid rgba(255,255,255,.12);
+      border: 3px solid rgba(255, 255, 255, .12);
     }
 
     .hero-card-name {
@@ -514,7 +627,7 @@
 
     .hero-card-divider {
       height: 1px;
-      background: rgba(255,255,255,.08);
+      background: rgba(255, 255, 255, .08);
       margin: 20px 0;
     }
 
@@ -523,6 +636,7 @@
       flex-direction: column;
       gap: 10px;
     }
+
     .hero-chip {
       display: flex;
       align-items: center;
@@ -530,10 +644,12 @@
       font-size: .85rem;
       color: var(--mist);
     }
+
     .hero-chip-icon {
-      width: 32px; height: 32px;
+      width: 32px;
+      height: 32px;
       border-radius: 8px;
-      background: rgba(255,255,255,.06);
+      background: rgba(255, 255, 255, .06);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -571,6 +687,7 @@
       letter-spacing: .06em;
       text-transform: uppercase;
     }
+
     .scroll-line {
       width: 40px;
       height: 1px;
@@ -582,7 +699,10 @@
         grid-template-columns: 1fr;
         padding: 60px 0 48px;
       }
-      .hero-card-wrap { display: none; }
+
+      .hero-card-wrap {
+        display: none;
+      }
     }
 
     /* ============================================================
@@ -611,8 +731,10 @@
       font-weight: 600;
       color: var(--ink-soft);
     }
+
     .trust-item-icon {
-      width: 34px; height: 34px;
+      width: 34px;
+      height: 34px;
       border-radius: 8px;
       background: var(--white);
       box-shadow: var(--shadow-xs);
@@ -651,6 +773,7 @@
       background: linear-gradient(160deg, var(--chalk), var(--fog));
       box-shadow: var(--shadow-xl);
     }
+
     .photo-placeholder-inner {
       width: 100%;
       height: 100%;
@@ -663,10 +786,12 @@
       padding: 24px;
       text-align: center;
     }
+
     .photo-placeholder-inner .icon-big {
       font-size: 4.5rem;
       opacity: .35;
     }
+
     .photo-placeholder-inner p {
       font-size: .8rem;
       font-weight: 600;
@@ -689,8 +814,10 @@
       gap: 14px;
       min-width: 200px;
     }
+
     .accent-card-icon {
-      width: 44px; height: 44px;
+      width: 44px;
+      height: 44px;
       border-radius: 10px;
       display: flex;
       align-items: center;
@@ -699,7 +826,9 @@
       background: linear-gradient(135deg, var(--gold), var(--gold-light));
       flex-shrink: 0;
     }
+
     .accent-card-text {}
+
     .act-num {
       font-family: 'DM Serif Display', serif;
       font-size: 1.5rem;
@@ -707,7 +836,14 @@
       line-height: 1;
       margin-bottom: 2px;
     }
-    .act-label { font-size: .72rem; color: var(--stone); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+
+    .act-label {
+      font-size: .72rem;
+      color: var(--stone);
+      font-weight: 600;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
 
     .sobre-accent-card-2 {
       position: absolute;
@@ -719,8 +855,20 @@
       box-shadow: var(--shadow-lg);
       color: var(--white);
     }
-    .ac2-stars { color: var(--gold); font-size: .95rem; margin-bottom: 4px; }
-    .ac2-text { font-size: .72rem; font-weight: 600; color: var(--mist); letter-spacing: .04em; text-transform: uppercase; }
+
+    .ac2-stars {
+      color: var(--gold);
+      font-size: .95rem;
+      margin-bottom: 4px;
+    }
+
+    .ac2-text {
+      font-size: .72rem;
+      font-weight: 600;
+      color: var(--mist);
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
 
     /* Content side */
     .sobre-content {}
@@ -731,7 +879,11 @@
       line-height: 1.85;
       margin-bottom: 20px;
     }
-    .sobre-text strong { color: var(--ink); font-weight: 600; }
+
+    .sobre-text strong {
+      color: var(--ink);
+      font-weight: 600;
+    }
 
     .sobre-quote {
       background: var(--chalk);
@@ -752,6 +904,7 @@
       gap: 10px;
       margin-top: 28px;
     }
+
     .valor-pill {
       display: flex;
       align-items: center;
@@ -765,16 +918,31 @@
       border: 1px solid var(--fog);
       transition: border-color var(--t-fast), background var(--t-fast);
     }
+
     .valor-pill:hover {
       border-color: var(--gold);
-      background: rgba(201,168,76,.04);
+      background: rgba(201, 168, 76, .04);
     }
-    .valor-pill-icon { font-size: 1.05rem; }
+
+    .valor-pill-icon {
+      font-size: 1.05rem;
+    }
 
     @media (max-width: 820px) {
-      .sobre-grid { grid-template-columns: 1fr; gap: 56px; }
-      .sobre-accent-card { left: 50%; transform: translateX(-50%); bottom: -20px; }
-      .sobre-accent-card-2 { display: none; }
+      .sobre-grid {
+        grid-template-columns: 1fr;
+        gap: 56px;
+      }
+
+      .sobre-accent-card {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -20px;
+      }
+
+      .sobre-accent-card-2 {
+        display: none;
+      }
     }
 
     /* ============================================================
@@ -809,25 +977,33 @@
       overflow: hidden;
       cursor: default;
     }
+
     .svc-card::after {
       content: '';
       position: absolute;
-      bottom: 0; left: 0; right: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
       height: 3px;
       background: linear-gradient(90deg, var(--gold), var(--teal));
       transform: scaleX(0);
       transform-origin: left;
       transition: transform var(--t-med);
     }
+
     .svc-card:hover {
       border-color: var(--fog);
       box-shadow: var(--shadow-md);
       transform: translateY(-4px);
     }
-    .svc-card:hover::after { transform: scaleX(1); }
+
+    .svc-card:hover::after {
+      transform: scaleX(1);
+    }
 
     .svc-icon-wrap {
-      width: 52px; height: 52px;
+      width: 52px;
+      height: 52px;
       border-radius: 14px;
       background: var(--chalk);
       display: flex;
@@ -837,7 +1013,10 @@
       margin-bottom: 20px;
       transition: background var(--t-fast);
     }
-    .svc-card:hover .svc-icon-wrap { background: linear-gradient(135deg, rgba(201,168,76,.12), rgba(26,158,143,.08)); }
+
+    .svc-card:hover .svc-icon-wrap {
+      background: linear-gradient(135deg, rgba(201, 168, 76, .12), rgba(26, 158, 143, .08));
+    }
 
     .svc-card h3 {
       font-family: 'DM Serif Display', serif;
@@ -845,6 +1024,7 @@
       color: var(--ink);
       margin-bottom: 10px;
     }
+
     .svc-card p {
       font-size: .9rem;
       color: var(--stone);
@@ -855,10 +1035,23 @@
       background: var(--ink);
       border-color: var(--ink);
     }
-    .svc-card-featured h3 { color: var(--white); }
-    .svc-card-featured p { color: var(--mist); }
-    .svc-card-featured .svc-icon-wrap { background: rgba(255,255,255,.06); }
-    .svc-card-featured::after { display: none; }
+
+    .svc-card-featured h3 {
+      color: var(--white);
+    }
+
+    .svc-card-featured p {
+      color: var(--mist);
+    }
+
+    .svc-card-featured .svc-icon-wrap {
+      background: rgba(255, 255, 255, .06);
+    }
+
+    .svc-card-featured::after {
+      display: none;
+    }
+
     .svc-card-featured .featured-tag {
       display: inline-flex;
       align-items: center;
@@ -875,11 +1068,19 @@
     }
 
     @media (max-width: 900px) {
-      .services-grid { grid-template-columns: 1fr 1fr; }
-      .servicos-head { grid-template-columns: 1fr; }
+      .services-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .servicos-head {
+        grid-template-columns: 1fr;
+      }
     }
+
     @media (max-width: 600px) {
-      .services-grid { grid-template-columns: 1fr; }
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     /* ============================================================
@@ -894,7 +1095,10 @@
       text-align: center;
       margin-bottom: 72px;
     }
-    .processo-head .section-lead { margin: 0 auto; }
+
+    .processo-head .section-lead {
+      margin: 0 auto;
+    }
 
     .processo-steps {
       display: grid;
@@ -925,7 +1129,8 @@
     }
 
     .step-circle {
-      width: 72px; height: 72px;
+      width: 72px;
+      height: 72px;
       border-radius: 50%;
       background: var(--white);
       border: 2px solid var(--fog);
@@ -937,16 +1142,19 @@
       box-shadow: var(--shadow-sm);
       transition: border-color var(--t-med), box-shadow var(--t-med), transform var(--t-med);
     }
+
     .step-item:hover .step-circle {
       border-color: var(--gold);
-      box-shadow: 0 0 0 4px rgba(201,168,76,.12);
+      box-shadow: 0 0 0 4px rgba(201, 168, 76, .12);
       transform: scale(1.06);
     }
 
     .step-num-badge {
       position: absolute;
-      top: -4px; right: -4px;
-      width: 20px; height: 20px;
+      top: -4px;
+      right: -4px;
+      width: 20px;
+      height: 20px;
       border-radius: 50%;
       background: var(--gold);
       color: var(--ink);
@@ -963,6 +1171,7 @@
       color: var(--ink);
       margin-bottom: 6px;
     }
+
     .step-desc {
       font-size: .8rem;
       color: var(--stone);
@@ -974,9 +1183,21 @@
         grid-template-columns: 1fr;
         gap: 28px;
       }
-      .processo-steps::before { display: none; }
-      .step-item { flex-direction: row; text-align: left; gap: 16px; }
-      .step-circle { flex-shrink: 0; margin-bottom: 0; }
+
+      .processo-steps::before {
+        display: none;
+      }
+
+      .step-item {
+        flex-direction: row;
+        text-align: left;
+        gap: 16px;
+      }
+
+      .step-circle {
+        flex-shrink: 0;
+        margin-bottom: 0;
+      }
     }
 
     /* ============================================================
@@ -1004,8 +1225,15 @@
       position: relative;
       z-index: 1;
     }
-    .depo-head .section-title { color: var(--white); }
-    .depo-head .section-lead { color: var(--stone); margin: 0 auto; }
+
+    .depo-head .section-title {
+      color: var(--white);
+    }
+
+    .depo-head .section-lead {
+      color: var(--stone);
+      margin: 0 auto;
+    }
 
     .depo-grid {
       display: grid;
@@ -1016,15 +1244,16 @@
     }
 
     .depo-card {
-      background: rgba(255,255,255,.04);
-      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(255, 255, 255, .04);
+      border: 1px solid rgba(255, 255, 255, .08);
       border-radius: var(--radius-lg);
       padding: 30px;
       transition: background var(--t-med), border-color var(--t-med), transform var(--t-med);
     }
+
     .depo-card:hover {
-      background: rgba(255,255,255,.07);
-      border-color: rgba(201,168,76,.25);
+      background: rgba(255, 255, 255, .07);
+      border-color: rgba(201, 168, 76, .25);
       transform: translateY(-3px);
     }
 
@@ -1037,7 +1266,7 @@
 
     .depo-text {
       font-size: .95rem;
-      color: rgba(255,255,255,.75);
+      color: rgba(255, 255, 255, .75);
       line-height: 1.8;
       margin-bottom: 24px;
     }
@@ -1047,11 +1276,12 @@
       align-items: center;
       gap: 12px;
       padding-top: 18px;
-      border-top: 1px solid rgba(255,255,255,.07);
+      border-top: 1px solid rgba(255, 255, 255, .07);
     }
 
     .depo-av {
-      width: 42px; height: 42px;
+      width: 42px;
+      height: 42px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -1061,15 +1291,34 @@
       color: var(--ink);
       flex-shrink: 0;
     }
-    .av-g { background: linear-gradient(135deg, var(--gold), var(--gold-light)); }
-    .av-t { background: linear-gradient(135deg, var(--teal), var(--teal-light)); }
-    .av-s { background: linear-gradient(135deg, #a855f7, #7c3aed); }
 
-    .depo-name { font-size: .9rem; font-weight: 600; color: var(--white); }
-    .depo-loc  { font-size: .75rem; color: var(--stone); }
+    .av-g {
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    }
+
+    .av-t {
+      background: linear-gradient(135deg, var(--teal), var(--teal-light));
+    }
+
+    .av-s {
+      background: linear-gradient(135deg, #a855f7, #7c3aed);
+    }
+
+    .depo-name {
+      font-size: .9rem;
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    .depo-loc {
+      font-size: .75rem;
+      color: var(--stone);
+    }
 
     @media (max-width: 820px) {
-      .depo-grid { grid-template-columns: 1fr; }
+      .depo-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     /* ============================================================
@@ -1083,6 +1332,7 @@
       position: relative;
       overflow: hidden;
     }
+
     #cta-band::before {
       content: '';
       position: absolute;
@@ -1092,16 +1342,34 @@
       opacity: 3;
     }
 
-    .cta-inner { position: relative; z-index: 1; }
-    .cta-inner .section-title { color: var(--white); margin-bottom: 12px; }
+    .cta-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    .cta-inner .section-title {
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+
     .cta-inner .section-lead {
-      color: rgba(255,255,255,.80);
+      color: rgba(255, 255, 255, .80);
       margin: 0 auto 36px;
       max-width: 440px;
     }
 
-    .cta-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-    .cta-footnote { margin-top: 20px; font-size: .78rem; color: rgba(255,255,255,.55); }
+    .cta-actions {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .cta-footnote {
+      margin-top: 20px;
+      font-size: .78rem;
+      color: rgba(255, 255, 255, .55);
+    }
 
     /* ============================================================
        CONTATO
@@ -1119,7 +1387,10 @@
     }
 
     .contato-left {}
-    .contato-left .section-lead { margin-bottom: 40px; }
+
+    .contato-left .section-lead {
+      margin-bottom: 40px;
+    }
 
     .contact-item {
       display: flex;
@@ -1127,8 +1398,10 @@
       gap: 16px;
       margin-bottom: 20px;
     }
+
     .contact-icon {
-      width: 48px; height: 48px;
+      width: 48px;
+      height: 48px;
       border-radius: var(--radius-sm);
       display: flex;
       align-items: center;
@@ -1136,13 +1409,37 @@
       font-size: 1.3rem;
       flex-shrink: 0;
     }
-    .ci-gold  { background: rgba(201,168,76,.10); }
-    .ci-teal  { background: rgba(26,158,143,.10); }
-    .ci-dark  { background: var(--chalk); }
-    .ci-wa    { background: rgba(37,211,102,.10); }
 
-    .contact-label { font-size: .73rem; font-weight: 600; color: var(--mist); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 2px; }
-    .contact-value { font-size: .97rem; font-weight: 600; color: var(--ink); }
+    .ci-gold {
+      background: rgba(201, 168, 76, .10);
+    }
+
+    .ci-teal {
+      background: rgba(26, 158, 143, .10);
+    }
+
+    .ci-dark {
+      background: var(--chalk);
+    }
+
+    .ci-wa {
+      background: rgba(37, 211, 102, .10);
+    }
+
+    .contact-label {
+      font-size: .73rem;
+      font-weight: 600;
+      color: var(--mist);
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+
+    .contact-value {
+      font-size: .97rem;
+      font-weight: 600;
+      color: var(--ink);
+    }
 
     .contato-wa-card {
       background: linear-gradient(135deg, #0f2219, #1a4c2c);
@@ -1154,9 +1451,14 @@
       gap: 16px;
       transition: transform var(--t-med);
     }
-    .contato-wa-card:hover { transform: translateY(-2px); }
+
+    .contato-wa-card:hover {
+      transform: translateY(-2px);
+    }
+
     .wa-card-icon {
-      width: 54px; height: 54px;
+      width: 54px;
+      height: 54px;
       border-radius: 50%;
       background: var(--wa);
       display: flex;
@@ -1165,11 +1467,25 @@
       font-size: 1.6rem;
       color: var(--white);
       flex-shrink: 0;
-      box-shadow: 0 4px 16px rgba(37,211,102,.35);
+      box-shadow: 0 4px 16px rgba(37, 211, 102, .35);
     }
+
     .wa-card-text {}
-    .wa-card-label { font-size: .75rem; color: rgba(255,255,255,.45); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 3px; }
-    .wa-card-num { font-size: 1.1rem; font-weight: 700; color: var(--white); }
+
+    .wa-card-label {
+      font-size: .75rem;
+      color: rgba(255, 255, 255, .45);
+      font-weight: 600;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      margin-bottom: 3px;
+    }
+
+    .wa-card-num {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+    }
 
     /* Form */
     .contato-form {
@@ -1179,14 +1495,21 @@
       border: 1px solid var(--fog);
     }
 
-    .form-header { margin-bottom: 28px; }
+    .form-header {
+      margin-bottom: 28px;
+    }
+
     .form-header h3 {
       font-family: 'DM Serif Display', serif;
       font-size: 1.4rem;
       color: var(--ink);
       margin-bottom: 4px;
     }
-    .form-header p { font-size: .85rem; color: var(--stone); }
+
+    .form-header p {
+      font-size: .85rem;
+      color: var(--stone);
+    }
 
     .form-row {
       display: grid;
@@ -1194,7 +1517,10 @@
       gap: 14px;
     }
 
-    .form-group { margin-bottom: 16px; }
+    .form-group {
+      margin-bottom: 16px;
+    }
+
     .form-group label {
       display: block;
       font-size: .8rem;
@@ -1219,19 +1545,28 @@
       transition: border-color var(--t-fast), box-shadow var(--t-fast);
       appearance: none;
     }
+
     .form-group input::placeholder,
     .form-group textarea::placeholder {
       color: var(--mist);
     }
+
     .form-group input:focus,
     .form-group textarea:focus,
     .form-group select:focus {
       border-color: var(--gold);
-      box-shadow: 0 0 0 3px rgba(201,168,76,.12);
+      box-shadow: 0 0 0 3px rgba(201, 168, 76, .12);
     }
-    .form-group textarea { resize: vertical; min-height: 100px; }
 
-    .select-wrap { position: relative; }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .select-wrap {
+      position: relative;
+    }
+
     .select-wrap::after {
       content: '▾';
       position: absolute;
@@ -1251,8 +1586,14 @@
     }
 
     @media (max-width: 820px) {
-      .contato-grid { grid-template-columns: 1fr; gap: 56px; }
-      .form-row { grid-template-columns: 1fr; }
+      .contato-grid {
+        grid-template-columns: 1fr;
+        gap: 56px;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
     }
 
     /* ============================================================
@@ -1270,7 +1611,7 @@
       align-items: center;
       padding-bottom: 28px;
       margin-bottom: 28px;
-      border-bottom: 1px solid rgba(255,255,255,.06);
+      border-bottom: 1px solid rgba(255, 255, 255, .06);
     }
 
     .footer-brand {
@@ -1282,7 +1623,10 @@
       gap: 8px;
       margin-bottom: 6px;
     }
-    .footer-brand .logo-dot { background: var(--gold); }
+
+    .footer-brand .logo-dot {
+      background: var(--gold);
+    }
 
     .footer-tagline {
       font-size: .82rem;
@@ -1293,13 +1637,17 @@
       display: flex;
       gap: 24px;
     }
+
     .footer-links a {
       font-size: .82rem;
       color: var(--stone);
       font-weight: 500;
       transition: color var(--t-fast);
     }
-    .footer-links a:hover { color: var(--gold); }
+
+    .footer-links a:hover {
+      color: var(--gold);
+    }
 
     .footer-copy {
       display: flex;
@@ -1308,16 +1656,30 @@
       flex-wrap: wrap;
       gap: 8px;
     }
+
     .footer-copy p {
       font-size: .78rem;
-      color: rgba(255,255,255,.25);
+      color: rgba(255, 255, 255, .25);
     }
-    .footer-copy a { color: rgba(255,255,255,.40); transition: color var(--t-fast); }
-    .footer-copy a:hover { color: var(--gold); }
+
+    .footer-copy a {
+      color: rgba(255, 255, 255, .40);
+      transition: color var(--t-fast);
+    }
+
+    .footer-copy a:hover {
+      color: var(--gold);
+    }
 
     @media (max-width: 600px) {
-      .footer-inner { grid-template-columns: 1fr; }
-      .footer-links { flex-wrap: wrap; gap: 14px; }
+      .footer-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-links {
+        flex-wrap: wrap;
+        gap: 14px;
+      }
     }
 
     /* ============================================================
@@ -1328,7 +1690,8 @@
       bottom: 28px;
       right: 28px;
       z-index: 800;
-      width: 60px; height: 60px;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
       background: var(--wa);
       color: var(--white);
@@ -1336,23 +1699,33 @@
       align-items: center;
       justify-content: center;
       font-size: 1.55rem;
-      box-shadow: 0 4px 20px rgba(37,211,102,.40);
+      box-shadow: 0 4px 20px rgba(37, 211, 102, .40);
       transition: transform var(--t-fast), box-shadow var(--t-fast);
     }
+
     .wa-float:hover {
       transform: scale(1.1);
-      box-shadow: 0 8px 32px rgba(37,211,102,.55);
+      box-shadow: 0 8px 32px rgba(37, 211, 102, .55);
     }
+
     .wa-float-pulse {
       position: absolute;
       inset: -6px;
       border-radius: 50%;
-      border: 2px solid rgba(37,211,102,.35);
+      border: 2px solid rgba(37, 211, 102, .35);
       animation: pulse-ring 2.5s ease-in-out infinite;
     }
+
     @keyframes pulse-ring {
-      0% { transform: scale(1); opacity: 1; }
-      100% { transform: scale(1.5); opacity: 0; }
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1.5);
+        opacity: 0;
+      }
     }
 
     /* WA tooltip */
@@ -1372,7 +1745,10 @@
       pointer-events: none;
       transition: opacity var(--t-fast);
     }
-    .wa-float:hover .wa-tooltip { opacity: 1; }
+
+    .wa-float:hover .wa-tooltip {
+      opacity: 1;
+    }
 
     /* ============================================================
        SCROLL REVEAL
@@ -1380,17 +1756,33 @@
     [data-reveal] {
       opacity: 0;
       transform: translateY(28px);
-      transition: opacity .6s cubic-bezier(.4,0,.2,1), transform .6s cubic-bezier(.4,0,.2,1);
+      transition: opacity .6s cubic-bezier(.4, 0, .2, 1), transform .6s cubic-bezier(.4, 0, .2, 1);
     }
+
     [data-reveal].visible {
       opacity: 1;
       transform: none;
     }
-    [data-reveal-delay="1"] { transition-delay: .08s; }
-    [data-reveal-delay="2"] { transition-delay: .16s; }
-    [data-reveal-delay="3"] { transition-delay: .24s; }
-    [data-reveal-delay="4"] { transition-delay: .32s; }
-    [data-reveal-delay="5"] { transition-delay: .40s; }
+
+    [data-reveal-delay="1"] {
+      transition-delay: .08s;
+    }
+
+    [data-reveal-delay="2"] {
+      transition-delay: .16s;
+    }
+
+    [data-reveal-delay="3"] {
+      transition-delay: .24s;
+    }
+
+    [data-reveal-delay="4"] {
+      transition-delay: .32s;
+    }
+
+    [data-reveal-delay="5"] {
+      transition-delay: .40s;
+    }
 
     /* ============================================================
        PROGRESS BAR
@@ -1427,8 +1819,14 @@
       align-items: center;
       gap: 10px;
     }
-    #toast.show { transform: translateX(0); }
-    #toast .toast-icon { font-size: 1.1rem; }
+
+    #toast.show {
+      transform: translateX(0);
+    }
+
+    #toast .toast-icon {
+      font-size: 1.1rem;
+    }
 
     /* ============================================================
        ANTES & DEPOIS
@@ -1443,7 +1841,10 @@
       text-align: center;
       margin-bottom: 72px;
     }
-    .ad-head .section-lead { margin: 0 auto; }
+
+    .ad-head .section-lead {
+      margin: 0 auto;
+    }
 
     /* Stage — the visible area */
     .ad-stage {
@@ -1462,8 +1863,10 @@
     .ad-track {
       display: flex;
       /* width set by JS: 100% * number_of_slides */
-      transition: transform .65s cubic-bezier(.77,0,.175,1);
+      transition: transform .65s cubic-bezier(.77, 0, .175, 1);
       will-change: transform;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x;
     }
 
     /* Each slide = one before+after pair */
@@ -1486,9 +1889,12 @@
       height: 100%;
       object-fit: cover;
       display: block;
-      transition: transform .8s cubic-bezier(.4,0,.2,1);
+      transition: transform .8s cubic-bezier(.4, 0, .2, 1);
     }
-    .ad-slide:hover .ad-panel-img { transform: scale(1.03); }
+
+    .ad-slide:hover .ad-panel-img {
+      transform: scale(1.03);
+    }
 
     /* Placeholder (remove when real photos are added) */
     .ad-panel-placeholder {
@@ -1506,9 +1912,19 @@
       text-transform: uppercase;
       color: var(--stone);
     }
-    .ad-panel-placeholder .ph-emoji { font-size: 2.8rem; opacity: .35; }
-    .ad-panel.panel-before .ad-panel-placeholder { background: #e9e5df; }
-    .ad-panel.panel-after  .ad-panel-placeholder { background: #d4ede8; }
+
+    .ad-panel-placeholder .ph-emoji {
+      font-size: 2.8rem;
+      opacity: .35;
+    }
+
+    .ad-panel.panel-before .ad-panel-placeholder {
+      background: #e9e5df;
+    }
+
+    .ad-panel.panel-after .ad-panel-placeholder {
+      background: #d4ede8;
+    }
 
     /* Labels */
     .ad-label {
@@ -1523,23 +1939,26 @@
       backdrop-filter: blur(8px);
       z-index: 2;
     }
+
     .ad-panel.panel-before .ad-label {
       left: 18px;
-      background: rgba(15,17,23,.55);
-      color: rgba(255,255,255,.90);
-      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(15, 17, 23, .55);
+      color: rgba(255, 255, 255, .90);
+      border: 1px solid rgba(255, 255, 255, .18);
     }
+
     .ad-panel.panel-after .ad-label {
       right: 18px;
-      background: rgba(26,158,143,.85);
+      background: rgba(26, 158, 143, .85);
       color: #fff;
-      border: 1px solid rgba(255,255,255,.22);
+      border: 1px solid rgba(255, 255, 255, .22);
     }
 
     /* Divider line in the middle */
     .ad-divider {
       position: absolute;
-      top: 0; bottom: 0;
+      top: 0;
+      bottom: 0;
       left: 50%;
       transform: translateX(-50%);
       width: 3px;
@@ -1547,12 +1966,14 @@
       z-index: 3;
       pointer-events: none;
     }
+
     .ad-divider-icon {
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
-      width: 36px; height: 36px;
+      transform: translate(-50%, -50%);
+      width: 36px;
+      height: 36px;
       border-radius: 50%;
       background: var(--white);
       box-shadow: var(--shadow-md);
@@ -1568,10 +1989,11 @@
     .ad-caption {
       position: absolute;
       bottom: 0;
-      left: 0; right: 0;
+      left: 0;
+      right: 0;
       padding: 14px 20px;
-      background: linear-gradient(transparent, rgba(15,17,23,.70));
-      color: rgba(255,255,255,.90);
+      background: linear-gradient(transparent, rgba(15, 17, 23, .70));
+      color: rgba(255, 255, 255, .90);
       font-size: .82rem;
       font-weight: 600;
       text-align: center;
@@ -1584,7 +2006,8 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      width: 48px; height: 48px;
+      width: 48px;
+      height: 48px;
       border-radius: 50%;
       background: var(--white);
       border: none;
@@ -1597,14 +2020,25 @@
       z-index: 10;
       transition: transform var(--t-fast), box-shadow var(--t-fast), background var(--t-fast);
     }
+
     .ad-arrow:hover {
       background: var(--gold);
-      box-shadow: 0 4px 18px rgba(201,168,76,.35);
+      box-shadow: 0 4px 18px rgba(201, 168, 76, .35);
       transform: translateY(-50%) scale(1.08);
     }
-    .ad-arrow-prev { left: -24px; }
-    .ad-arrow-next { right: -24px; }
-    .ad-arrow:disabled { opacity: .35; pointer-events: none; }
+
+    .ad-arrow-prev {
+      left: -24px;
+    }
+
+    .ad-arrow-next {
+      right: -24px;
+    }
+
+    .ad-arrow:disabled {
+      opacity: .35;
+      pointer-events: none;
+    }
 
     /* ── Dot indicators ── */
     .ad-dots {
@@ -1613,8 +2047,10 @@
       gap: 9px;
       margin-top: 32px;
     }
+
     .ad-dot {
-      width: 8px; height: 8px;
+      width: 8px;
+      height: 8px;
       border-radius: 99px;
       background: var(--fog);
       border: none;
@@ -1622,6 +2058,7 @@
       transition: background var(--t-med), width var(--t-med);
       padding: 0;
     }
+
     .ad-dot.active {
       background: var(--gold);
       width: 26px;
@@ -1637,7 +2074,10 @@
       letter-spacing: .06em;
       text-transform: uppercase;
     }
-    .ad-counter span { color: var(--ink); }
+
+    .ad-counter span {
+      color: var(--ink);
+    }
 
     /* ── Swipe hint (mobile only) ── */
     .ad-swipe-hint {
@@ -1649,1179 +2089,1231 @@
     }
 
     @media (max-width: 760px) {
-      .ad-arrow { display: none; }
-      .ad-swipe-hint { display: block; }
-      .ad-slide { min-height: 260px; }
-      .ad-panel-placeholder { min-height: 260px; }
+      .ad-arrow {
+        display: none;
+      }
+
+      .ad-swipe-hint {
+        display: block;
+      }
+
+      .ad-slide {
+        min-height: 260px;
+      }
+
+      .ad-panel-placeholder {
+        min-height: 260px;
+      }
     }
 
     @media (max-width: 480px) {
-      .ad-slide { grid-template-columns: 1fr; min-height: 480px; }
-      .ad-panel.panel-before .ad-label { left: 12px; top: 12px; }
-      .ad-panel.panel-after  .ad-label { right: 12px; top: 12px; }
-      .ad-divider { display: none; }
-      .ad-panel-placeholder { min-height: 240px; }
+      .ad-slide {
+        grid-template-columns: 1fr;
+        min-height: 480px;
+      }
+
+      .ad-panel.panel-before .ad-label {
+        left: 12px;
+        top: 12px;
+      }
+
+      .ad-panel.panel-after .ad-label {
+        right: 12px;
+        top: 12px;
+      }
+
+      .ad-divider {
+        display: none;
+      }
+
+      .ad-panel-placeholder {
+        min-height: 240px;
+      }
     }
 
     /* ============================================================
        MISC RESPONSIVE
     ============================================================ */
     @media (max-width: 600px) {
-      .hero-stats { gap: 20px; }
-      .stat-num { font-size: 1.7rem; }
-      #cta-band { padding: 72px 0; }
-      .contato-form { padding: 28px 20px; }
+      .hero-stats {
+        gap: 20px;
+      }
+
+      .stat-num {
+        font-size: 1.7rem;
+      }
+
+      #cta-band {
+        padding: 72px 0;
+      }
+
+      .contato-form {
+        padding: 28px 20px;
+      }
     }
   </style>
 </head>
+
 <body>
 
-<!-- Progress bar -->
-<div id="progress-bar"></div>
+  <!-- Progress bar -->
+  <div id="progress-bar"></div>
 
-<!-- Toast notification -->
-<div id="toast">
-  <span class="toast-icon">✅</span>
-  <span id="toast-msg">Mensagem enviada!</span>
-</div>
+  <!-- Toast notification -->
+  <div id="toast">
+    <span class="toast-icon">✅</span>
+    <span id="toast-msg">Mensagem enviada!</span>
+  </div>
 
-<!-- ============================================================
+  <!-- ============================================================
      HEADER
 ============================================================ -->
-<header id="site-header">
-  <div class="container">
-    <nav class="nav-inner">
-      <a href="#hero" class="nav-logo" aria-label="Carlinhos Diarista – Início">
-        <span class="logo-dot"></span>
-        Carlinhos
-      </a>
-
-      <ul class="nav-links" role="navigation" aria-label="Menu principal">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#antes-depois">Resultados</a></li>
-        <li><a href="#depoimentos">Depoimentos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-
-      <div class="nav-cta-desktop">
-        <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
-           class="btn btn-wa" target="_blank" rel="noopener noreferrer">
-          💬 Falar no WhatsApp
+  <header id="site-header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="#hero" class="nav-logo" aria-label="Carlinhos Diarista – Início">
+          <span class="logo-dot"></span>
+          Carlinhos
         </a>
-      </div>
 
-      <button class="nav-burger" id="nav-burger" aria-label="Abrir menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </nav>
+        <ul class="nav-links" role="navigation" aria-label="Menu principal">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#antes-depois">Resultados</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="nav-cta-desktop">
+          <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
+            class="btn btn-wa" target="_blank" rel="noopener noreferrer">
+            💬 Falar no WhatsApp
+          </a>
+        </div>
+
+        <button class="nav-burger" id="nav-burger" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="nav-drawer" id="nav-drawer" role="dialog" aria-modal="true" aria-label="Menu mobile">
+    <a href="#sobre" class="drawer-link">Sobre mim</a>
+    <a href="#servicos" class="drawer-link">Serviços</a>
+    <a href="#como-funciona" class="drawer-link">Como funciona</a>
+    <a href="#depoimentos" class="drawer-link">Depoimentos</a>
+    <a href="#antes-depois" class="drawer-link">Resultados</a>
+    <a href="#contato" class="drawer-link">Contato</a>
+    <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vim%20pelo%20site%20e%20quero%20um%20orçamento%20😊"
+      class="btn btn-wa drawer-cta" target="_blank" rel="noopener noreferrer">
+      <i class="ph-fill ph-whatsapp-logo"></i> Falar no WhatsApp
+    </a>
   </div>
-</header>
-
-<!-- Mobile drawer -->
-<div class="nav-drawer" id="nav-drawer" role="dialog" aria-modal="true" aria-label="Menu mobile">
-  <a href="#sobre" class="drawer-link">Sobre mim</a>
-  <a href="#servicos" class="drawer-link">Serviços</a>
-  <a href="#como-funciona" class="drawer-link">Como funciona</a>
-  <a href="#depoimentos" class="drawer-link">Depoimentos</a>
-  <a href="#antes-depois" class="drawer-link">Resultados</a>
-  <a href="#contato" class="drawer-link">Contato</a>
-  <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vim%20pelo%20site%20e%20quero%20um%20orçamento%20😊"
-     class="btn btn-wa drawer-cta" target="_blank" rel="noopener noreferrer">
-    <i class="ph-fill ph-whatsapp-logo"></i> Falar no WhatsApp
-  </a>
-</div>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      HERO
 ============================================================ -->
-<section id="hero">
-  <div class="hero-bg">
-    <div class="hero-bg-circle hbc-1"></div>
-    <div class="hero-bg-circle hbc-2"></div>
-    <div class="hero-grain"></div>
-  </div>
-
-  <div class="container">
-    <div class="hero-inner">
-
-      <!-- Left content -->
-      <div class="hero-content">
-        <div class="hero-badge">
-          <span class="hero-badge-dot">✦</span>
-          Diarista profissional · São Paulo, SP
-        </div>
-
-        <h1 class="hero-title">
-          Sua casa do<br>
-          jeito que você<br>
-          <span class="accent">merece ter.</span>
-        </h1>
-
-        <p class="hero-lead">
-          Oi! Sou o Carlinhos, diarista com mais de 5 anos de experiência em São Paulo.
-          Trabalho com capricho, pontualidade e um cuidado real com cada cantinho do seu espaço.
-        </p>
-
-        <div class="hero-actions">
-          <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
-             class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
-            <i class="ph-fill ph-whatsapp-logo"></i> Pedir orçamento grátis
-          </a>
-          <a href="#sobre" class="btn btn-ghost-inv">
-            Conhecer meu trabalho
-          </a>
-        </div>
-
-        <div class="hero-stats">
-          <div class="stat-item">
-            <div class="stat-num" data-count="250">0</div>
-            <div class="stat-label">Clientes atendidos</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-num" data-count="5">0</div>
-            <div class="stat-label">Anos de experiência</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-num" style="font-size:1.9rem">4.9★</div>
-            <div class="stat-label">Avaliação média</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Right card -->
-      <div class="hero-card-wrap">
-        <div class="hero-card">
-          <div class="hero-card-avatar">C</div>
-          <div class="hero-card-name">Carlos Silva</div>
-          <div class="hero-card-role">Diarista Profissional</div>
-          <div class="hero-card-divider"></div>
-          <div class="hero-card-chips">
-            <div class="hero-chip">
-              <div class="hero-chip-icon">📍</div>
-              Atende em São Paulo e região
-            </div>
-            <div class="hero-chip">
-              <div class="hero-chip-icon">🕐</div>
-              Seg a Sáb · 7h às 18h
-            </div>
-            <div class="hero-chip">
-              <div class="hero-chip-icon">⚡</div>
-              Responde em menos de 1h
-            </div>
-            <div class="hero-chip">
-              <div class="hero-chip-icon">🔒</div>
-              Com referências verificadas
-            </div>
-            <div class="hero-chip">
-              <div class="hero-chip-icon">🧴</div>
-              Traz seus próprios materiais
-            </div>
-          </div>
-        </div>
-        <div class="hero-float-badge">
-          ✅ Disponível para agendamento
-        </div>
-      </div>
-
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-bg-circle hbc-1"></div>
+      <div class="hero-bg-circle hbc-2"></div>
+      <div class="hero-grain"></div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="hero-scroll-hint">
-      <span class="scroll-line"></span>
-      Role para conhecer
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Left content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-dot">✦</span>
+            Diarista profissional · São Paulo, SP
+          </div>
+
+          <h1 class="hero-title">
+            Sua casa do<br>
+            jeito que você<br>
+            <span class="accent">merece ter.</span>
+          </h1>
+
+          <p class="hero-lead">
+            Oi! Sou o Carlinhos, diarista com mais de 5 anos de experiência em São Paulo.
+            Trabalho com capricho, pontualidade e um cuidado real com cada cantinho do seu espaço.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
+              class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+              <i class="ph-fill ph-whatsapp-logo"></i> Pedir orçamento grátis
+            </a>
+            <a href="#sobre" class="btn btn-ghost-inv">
+              Conhecer meu trabalho
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-num" data-count="250">0</div>
+              <div class="stat-label">Clientes atendidos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num" data-count="5">0</div>
+              <div class="stat-label">Anos de experiência</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num" style="font-size:1.9rem">4.9★</div>
+              <div class="stat-label">Avaliação média</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right card -->
+        <div class="hero-card-wrap">
+          <div class="hero-card">
+            <div class="hero-card-avatar">C</div>
+            <div class="hero-card-name">Carlos Silva</div>
+            <div class="hero-card-role">Diarista Profissional</div>
+            <div class="hero-card-divider"></div>
+            <div class="hero-card-chips">
+              <div class="hero-chip">
+                <div class="hero-chip-icon">📍</div>
+                Atende em São Paulo e região
+              </div>
+              <div class="hero-chip">
+                <div class="hero-chip-icon">🕐</div>
+                Seg a Sáb · 7h às 18h
+              </div>
+              <div class="hero-chip">
+                <div class="hero-chip-icon">⚡</div>
+                Responde em menos de 1h
+              </div>
+              <div class="hero-chip">
+                <div class="hero-chip-icon">🔒</div>
+                Com referências verificadas
+              </div>
+              <div class="hero-chip">
+                <div class="hero-chip-icon">🧴</div>
+                Traz seus próprios materiais
+              </div>
+            </div>
+          </div>
+          <div class="hero-float-badge">
+            ✅ Disponível para agendamento
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
-</section>
+
+    <div class="container">
+      <div class="hero-scroll-hint">
+        <span class="scroll-line"></span>
+        Role para conhecer
+      </div>
+    </div>
+  </section>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      TRUST BAR
 ============================================================ -->
-<section id="trust-bar" aria-label="Diferenciais">
-  <div class="container">
-    <div class="trust-track">
-      <div class="trust-item">
-        <div class="trust-item-icon">⭐</div>
-        Avaliação 5 estrelas
-      </div>
-      <div class="trust-item">
-        <div class="trust-item-icon">🛡️</div>
-        Com referências
-      </div>
-      <div class="trust-item">
-        <div class="trust-item-icon">🧴</div>
-        Materiais inclusos
-      </div>
-      <div class="trust-item">
-        <div class="trust-item-icon">⏰</div>
-        Sempre pontual
-      </div>
-      <div class="trust-item">
-        <div class="trust-item-icon">💬</div>
-        Resposta rápida
-      </div>
-      <div class="trust-item">
-        <div class="trust-item-icon">🔒</div>
-        Discrição garantida
-      </div>
-      <!-- repeated for scroll illusion on wide screens -->
-      <div class="trust-item" aria-hidden="true">
-        <div class="trust-item-icon">⭐</div>
-        Avaliação 5 estrelas
-      </div>
-      <div class="trust-item" aria-hidden="true">
-        <div class="trust-item-icon">🛡️</div>
-        Com referências
+  <section id="trust-bar" aria-label="Diferenciais">
+    <div class="container">
+      <div class="trust-track">
+        <div class="trust-item">
+          <div class="trust-item-icon">⭐</div>
+          Avaliação 5 estrelas
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon">🛡️</div>
+          Com referências
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon">🧴</div>
+          Materiais inclusos
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon">⏰</div>
+          Sempre pontual
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon">💬</div>
+          Resposta rápida
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon">🔒</div>
+          Discrição garantida
+        </div>
+        <!-- repeated for scroll illusion on wide screens -->
+        <div class="trust-item" aria-hidden="true">
+          <div class="trust-item-icon">⭐</div>
+          Avaliação 5 estrelas
+        </div>
+        <div class="trust-item" aria-hidden="true">
+          <div class="trust-item-icon">🛡️</div>
+          Com referências
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      SOBRE
 ============================================================ -->
-<section id="sobre">
-  <div class="container">
-    <div class="sobre-grid">
+  <section id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
 
-      <!-- Photo -->
-      <div class="sobre-photo-wrap" data-reveal>
-        <div class="sobre-photo-main">
-          <!--
+        <!-- Photo -->
+        <div class="sobre-photo-wrap" data-reveal>
+          <div class="sobre-photo-main">
+            <!--
             INSTRUÇÕES:
             Troque o bloco abaixo pela foto do Carlinhos.
             Exemplo:
             <img src="foto-carlinhos.jpg" alt="Carlos Silva, diarista" style="width:100%;height:100%;object-fit:cover;">
           -->
-          <div class="photo-placeholder-inner">
-            <div class="icon-big">📸</div>
-            <p>Adicione a foto do Carlinhos aqui</p>
-            <p style="font-size:.72rem;margin-top:4px;opacity:.35">Proporção 3×4 recomendada</p>
+            <div class="photo-placeholder-inner">
+              <div class="icon-big">📸</div>
+              <p>Adicione a foto do Carlinhos aqui</p>
+              <p style="font-size:.72rem;margin-top:4px;opacity:.35">Proporção 3×4 recomendada</p>
+            </div>
+          </div>
+          <div class="sobre-accent-card">
+            <div class="accent-card-icon">✦</div>
+            <div class="accent-card-text">
+              <div class="act-num">250+</div>
+              <div class="act-label">Clientes atendidos</div>
+            </div>
+          </div>
+          <div class="sobre-accent-card-2">
+            <div class="ac2-stars">★★★★★</div>
+            <div class="ac2-text">Nota 4.9 / 5.0</div>
           </div>
         </div>
-        <div class="sobre-accent-card">
-          <div class="accent-card-icon">✦</div>
-          <div class="accent-card-text">
-            <div class="act-num">250+</div>
-            <div class="act-label">Clientes atendidos</div>
+
+        <!-- Content -->
+        <div class="sobre-content" data-reveal data-reveal-delay="1">
+          <span class="eyebrow">Quem sou eu</span>
+          <h2 class="section-title">Oi, sou o Carlinhos.</h2>
+
+          <p class="sobre-text">
+            Comecei como diarista há mais de 5 anos porque sempre acreditei que
+            <strong>um ambiente limpo e organizado muda o humor de qualquer pessoa.</strong>
+            Não é só limpeza — é cuidado de verdade com o espaço onde você vive.
+          </p>
+
+          <p class="sobre-text">
+            Trato cada casa como se fosse a minha. Tenho <strong>atenção a cada detalhe,</strong>
+            respeito pelos seus objetos e uma maneira de trabalhar que os meus clientes descrevem
+            como "parece que foi a gente mesmo que limpou, só que melhor". 😄
+          </p>
+
+          <blockquote class="sobre-quote">
+            "Não gosto de fazer por fazer. Cada serviço que entrego tem que deixar o cliente
+            com aquele sorriso de satisfação quando abre a porta."
+          </blockquote>
+
+          <p class="sobre-text">
+            Trabalho com pontualidade, honestidade e comunicação aberta.
+            <strong>Sem enrolação, sem surpresa no preço.</strong>
+            Pode me chamar — prometo não decepcionar! 🙌
+          </p>
+
+          <div class="valores-grid">
+            <div class="valor-pill"><span class="valor-pill-icon">⏰</span> Pontualidade</div>
+            <div class="valor-pill"><span class="valor-pill-icon">💛</span> Cuidado com seus objetos</div>
+            <div class="valor-pill"><span class="valor-pill-icon">🔒</span> Total discrição</div>
+            <div class="valor-pill"><span class="valor-pill-icon">💬</span> Comunicação aberta</div>
+            <div class="valor-pill"><span class="valor-pill-icon">🧴</span> Produtos de qualidade</div>
+            <div class="valor-pill"><span class="valor-pill-icon">🌿</span> Ambiente mais saudável</div>
           </div>
         </div>
-        <div class="sobre-accent-card-2">
-          <div class="ac2-stars">★★★★★</div>
-          <div class="ac2-text">Nota 4.9 / 5.0</div>
-        </div>
+
       </div>
-
-      <!-- Content -->
-      <div class="sobre-content" data-reveal data-reveal-delay="1">
-        <span class="eyebrow">Quem sou eu</span>
-        <h2 class="section-title">Oi, sou o Carlinhos.</h2>
-
-        <p class="sobre-text">
-          Comecei como diarista há mais de 5 anos porque sempre acreditei que
-          <strong>um ambiente limpo e organizado muda o humor de qualquer pessoa.</strong>
-          Não é só limpeza — é cuidado de verdade com o espaço onde você vive.
-        </p>
-
-        <p class="sobre-text">
-          Trato cada casa como se fosse a minha. Tenho <strong>atenção a cada detalhe,</strong>
-          respeito pelos seus objetos e uma maneira de trabalhar que os meus clientes descrevem
-          como "parece que foi a gente mesmo que limpou, só que melhor". 😄
-        </p>
-
-        <blockquote class="sobre-quote">
-          "Não gosto de fazer por fazer. Cada serviço que entrego tem que deixar o cliente
-          com aquele sorriso de satisfação quando abre a porta."
-        </blockquote>
-
-        <p class="sobre-text">
-          Trabalho com pontualidade, honestidade e comunicação aberta.
-          <strong>Sem enrolação, sem surpresa no preço.</strong>
-          Pode me chamar — prometo não decepcionar! 🙌
-        </p>
-
-        <div class="valores-grid">
-          <div class="valor-pill"><span class="valor-pill-icon">⏰</span> Pontualidade</div>
-          <div class="valor-pill"><span class="valor-pill-icon">💛</span> Cuidado com seus objetos</div>
-          <div class="valor-pill"><span class="valor-pill-icon">🔒</span> Total discrição</div>
-          <div class="valor-pill"><span class="valor-pill-icon">💬</span> Comunicação aberta</div>
-          <div class="valor-pill"><span class="valor-pill-icon">🧴</span> Produtos de qualidade</div>
-          <div class="valor-pill"><span class="valor-pill-icon">🌿</span> Ambiente mais saudável</div>
-        </div>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      SERVIÇOS
 ============================================================ -->
-<section id="servicos">
-  <div class="container">
-    <div class="servicos-head">
-      <div data-reveal>
-        <span class="eyebrow">O que faço</span>
-        <h2 class="section-title">Serviços com<br>capricho de verdade</h2>
+  <section id="servicos">
+    <div class="container">
+      <div class="servicos-head">
+        <div data-reveal>
+          <span class="eyebrow">O que faço</span>
+          <h2 class="section-title">Serviços com<br>capricho de verdade</h2>
+        </div>
+        <div data-reveal data-reveal-delay="1">
+          <p class="section-lead" style="text-align:right">
+            Da limpeza rápida do dia a dia até a faxina completa que você vem adiando. 😄
+          </p>
+        </div>
       </div>
-      <div data-reveal data-reveal-delay="1">
-        <p class="section-lead" style="text-align:right">
-          Da limpeza rápida do dia a dia até a faxina completa que você vem adiando. 😄
-        </p>
+
+      <div class="services-grid">
+        <div class="svc-card svc-card-featured" data-reveal>
+          <span class="featured-tag">✦ Mais pedido</span>
+          <div class="svc-icon-wrap">🏠</div>
+          <h3>Diarista Fixa</h3>
+          <p>Agenda uma vez, relaxa o resto. Venho toda semana no horário que você preferir — sua casa sempre impecável.
+          </p>
+        </div>
+
+        <div class="svc-card" data-reveal data-reveal-delay="1">
+          <div class="svc-icon-wrap">🧹</div>
+          <h3>Limpeza Residencial</h3>
+          <p>Quartos, banheiros, cozinha e sala — cada cômodo no capricho. Frequência semanal, quinzenal ou mensal.</p>
+        </div>
+
+        <div class="svc-card" data-reveal data-reveal-delay="2">
+          <div class="svc-icon-wrap">🏢</div>
+          <h3>Limpeza Comercial</h3>
+          <p>Escritórios, consultórios e lojas atendidos fora do horário de expediente pra não atrapalhar sua rotina.
+          </p>
+        </div>
+
+        <div class="svc-card" data-reveal data-reveal-delay="3">
+          <div class="svc-icon-wrap">🔨</div>
+          <h3>Pós-Obra</h3>
+          <p>Reforma recente? Cuido de toda a bagunça e entrego o ambiente pronto pra você usar com tranquilidade.</p>
+        </div>
+
+        <div class="svc-card" data-reveal data-reveal-delay="4">
+          <div class="svc-icon-wrap">🛋️</div>
+          <h3>Sofás, Colchões e Tapetes</h3>
+          <p>Higienização profunda, elimina ácaros e manchas. Seus móveis parecem novos saídos da loja!</p>
+        </div>
+
+        <div class="svc-card" data-reveal data-reveal-delay="5">
+          <div class="svc-icon-wrap">📦</div>
+          <h3>Limpeza de Mudança</h3>
+          <p>Entrando ou saindo de imóvel? Deixo tudo impecável para quem chega ou para a devolução de chaves.</p>
+        </div>
       </div>
     </div>
-
-    <div class="services-grid">
-      <div class="svc-card svc-card-featured" data-reveal>
-        <span class="featured-tag">✦ Mais pedido</span>
-        <div class="svc-icon-wrap">🏠</div>
-        <h3>Diarista Fixa</h3>
-        <p>Agenda uma vez, relaxa o resto. Venho toda semana no horário que você preferir — sua casa sempre impecável.</p>
-      </div>
-
-      <div class="svc-card" data-reveal data-reveal-delay="1">
-        <div class="svc-icon-wrap">🧹</div>
-        <h3>Limpeza Residencial</h3>
-        <p>Quartos, banheiros, cozinha e sala — cada cômodo no capricho. Frequência semanal, quinzenal ou mensal.</p>
-      </div>
-
-      <div class="svc-card" data-reveal data-reveal-delay="2">
-        <div class="svc-icon-wrap">🏢</div>
-        <h3>Limpeza Comercial</h3>
-        <p>Escritórios, consultórios e lojas atendidos fora do horário de expediente pra não atrapalhar sua rotina.</p>
-      </div>
-
-      <div class="svc-card" data-reveal data-reveal-delay="3">
-        <div class="svc-icon-wrap">🔨</div>
-        <h3>Pós-Obra</h3>
-        <p>Reforma recente? Cuido de toda a bagunça e entrego o ambiente pronto pra você usar com tranquilidade.</p>
-      </div>
-
-      <div class="svc-card" data-reveal data-reveal-delay="4">
-        <div class="svc-icon-wrap">🛋️</div>
-        <h3>Sofás, Colchões e Tapetes</h3>
-        <p>Higienização profunda, elimina ácaros e manchas. Seus móveis parecem novos saídos da loja!</p>
-      </div>
-
-      <div class="svc-card" data-reveal data-reveal-delay="5">
-        <div class="svc-icon-wrap">📦</div>
-        <h3>Limpeza de Mudança</h3>
-        <p>Entrando ou saindo de imóvel? Deixo tudo impecável para quem chega ou para a devolução de chaves.</p>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      COMO FUNCIONA
 ============================================================ -->
-<section id="como-funciona">
-  <div class="container">
-    <div class="processo-head" data-reveal>
-      <span class="eyebrow">Como funciona</span>
-      <h2 class="section-title">Do primeiro contato<br>à casa brilhando</h2>
-      <p class="section-lead">Cinco passos simples e você já pode relaxar. Sem burocracia, sem complicação.</p>
+  <section id="como-funciona">
+    <div class="container">
+      <div class="processo-head" data-reveal>
+        <span class="eyebrow">Como funciona</span>
+        <h2 class="section-title">Do primeiro contato<br>à casa brilhando</h2>
+        <p class="section-lead">Cinco passos simples e você já pode relaxar. Sem burocracia, sem complicação.</p>
+      </div>
+
+      <div class="processo-steps">
+        <div class="step-item" data-reveal data-reveal-delay="1">
+          <div class="step-circle" style="position:relative">
+            <div class="step-num-badge">1</div>
+            📲
+          </div>
+          <div class="step-title">Me chama</div>
+          <div class="step-desc">Manda mensagem no WhatsApp — respondo em menos de uma hora!</div>
+        </div>
+
+        <div class="step-item" data-reveal data-reveal-delay="2">
+          <div class="step-circle" style="position:relative">
+            <div class="step-num-badge">2</div>
+            🗓️
+          </div>
+          <div class="step-title">A gente combina</div>
+          <div class="step-desc">Serviço, data, horário e orçamento — tudo alinhado antes.</div>
+        </div>
+
+        <div class="step-item" data-reveal data-reveal-delay="3">
+          <div class="step-circle" style="position:relative">
+            <div class="step-num-badge">3</div>
+            🧴
+          </div>
+          <div class="step-title">Apareço no horário</div>
+          <div class="step-desc">Pontual, com meu material e pronto pra trabalhar no capricho.</div>
+        </div>
+
+        <div class="step-item" data-reveal data-reveal-delay="4">
+          <div class="step-circle" style="position:relative">
+            <div class="step-num-badge">4</div>
+            ✨
+          </div>
+          <div class="step-title">Você aprecia</div>
+          <div class="step-desc">Chega em casa, abre a porta e respira fundo. É aquela sensação.</div>
+        </div>
+
+        <div class="step-item" data-reveal data-reveal-delay="5">
+          <div class="step-circle" style="position:relative">
+            <div class="step-num-badge">5</div>
+            💛
+          </div>
+          <div class="step-title">Me indica?</div>
+          <div class="step-desc">Clientes felizes são a minha melhor propaganda. Agradeço demais!</div>
+        </div>
+      </div>
     </div>
-
-    <div class="processo-steps">
-      <div class="step-item" data-reveal data-reveal-delay="1">
-        <div class="step-circle" style="position:relative">
-          <div class="step-num-badge">1</div>
-          📲
-        </div>
-        <div class="step-title">Me chama</div>
-        <div class="step-desc">Manda mensagem no WhatsApp — respondo em menos de uma hora!</div>
-      </div>
-
-      <div class="step-item" data-reveal data-reveal-delay="2">
-        <div class="step-circle" style="position:relative">
-          <div class="step-num-badge">2</div>
-          🗓️
-        </div>
-        <div class="step-title">A gente combina</div>
-        <div class="step-desc">Serviço, data, horário e orçamento — tudo alinhado antes.</div>
-      </div>
-
-      <div class="step-item" data-reveal data-reveal-delay="3">
-        <div class="step-circle" style="position:relative">
-          <div class="step-num-badge">3</div>
-          🧴
-        </div>
-        <div class="step-title">Apareço no horário</div>
-        <div class="step-desc">Pontual, com meu material e pronto pra trabalhar no capricho.</div>
-      </div>
-
-      <div class="step-item" data-reveal data-reveal-delay="4">
-        <div class="step-circle" style="position:relative">
-          <div class="step-num-badge">4</div>
-          ✨
-        </div>
-        <div class="step-title">Você aprecia</div>
-        <div class="step-desc">Chega em casa, abre a porta e respira fundo. É aquela sensação.</div>
-      </div>
-
-      <div class="step-item" data-reveal data-reveal-delay="5">
-        <div class="step-circle" style="position:relative">
-          <div class="step-num-badge">5</div>
-          💛
-        </div>
-        <div class="step-title">Me indica?</div>
-        <div class="step-desc">Clientes felizes são a minha melhor propaganda. Agradeço demais!</div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      DEPOIMENTOS
 ============================================================ -->
-<section id="depoimentos">
-  <div class="depo-bg"></div>
-  <div class="container">
-    <div class="depo-head" data-reveal>
-      <span class="eyebrow">Depoimentos</span>
-      <h2 class="section-title">Quem já me conhece<br><span class="italic">tem muito a dizer</span></h2>
-      <p class="section-lead">Nada melhor do que a opinião de quem confiou no meu trabalho.</p>
+  <section id="depoimentos">
+    <div class="depo-bg"></div>
+    <div class="container">
+      <div class="depo-head" data-reveal>
+        <span class="eyebrow">Depoimentos</span>
+        <h2 class="section-title">Quem já me conhece<br><span class="italic">tem muito a dizer</span></h2>
+        <p class="section-lead">Nada melhor do que a opinião de quem confiou no meu trabalho.</p>
+      </div>
+
+      <div class="depo-grid">
+        <div class="depo-card" data-reveal data-reveal-delay="1">
+          <div class="depo-stars">★★★★★</div>
+          <p class="depo-text">
+            O Carlinhos salvou minha vida depois de uma reforma. A casa estava um caos absoluto e ele chegou
+            super animado, caprichando em cada detalhe. Fiquei sem palavras com o resultado. Já agendei pra todo mês!
+          </p>
+          <div class="depo-foot">
+            <div class="depo-av av-g">MF</div>
+            <div>
+              <div class="depo-name">Mariana Ferreira</div>
+              <div class="depo-loc">Tatuapé, São Paulo</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="depo-card" data-reveal data-reveal-delay="2">
+          <div class="depo-stars">★★★★★</div>
+          <p class="depo-text">
+            Tenho o escritório mais cheiroso do bairro graças ao Carlinhos! Ele é super discreto, organizado
+            e sempre deixa tudo impecável. Pontualidade exemplar. Recomendo sem a menor hesitação.
+          </p>
+          <div class="depo-foot">
+            <div class="depo-av av-t">RS</div>
+            <div>
+              <div class="depo-name">Roberto Souza</div>
+              <div class="depo-loc">Empresário · Moema</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="depo-card" data-reveal data-reveal-delay="3">
+          <div class="depo-stars">★★★★★</div>
+          <p class="depo-text">
+            Sou mãe de dois e o Carlinhos é minha salvação toda semana! Pontual, atencioso e ainda dá dicas
+            de organização que nunca tinha pensado. Meu filho de 4 anos adora ele. Nota dez! ❤️
+          </p>
+          <div class="depo-foot">
+            <div class="depo-av av-s">JC</div>
+            <div>
+              <div class="depo-name">Juliana Costa</div>
+              <div class="depo-loc">Perdizes, São Paulo</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="depo-grid">
-      <div class="depo-card" data-reveal data-reveal-delay="1">
-        <div class="depo-stars">★★★★★</div>
-        <p class="depo-text">
-          O Carlinhos salvou minha vida depois de uma reforma. A casa estava um caos absoluto e ele chegou
-          super animado, caprichando em cada detalhe. Fiquei sem palavras com o resultado. Já agendei pra todo mês!
-        </p>
-        <div class="depo-foot">
-          <div class="depo-av av-g">MF</div>
-          <div>
-            <div class="depo-name">Mariana Ferreira</div>
-            <div class="depo-loc">Tatuapé, São Paulo</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="depo-card" data-reveal data-reveal-delay="2">
-        <div class="depo-stars">★★★★★</div>
-        <p class="depo-text">
-          Tenho o escritório mais cheiroso do bairro graças ao Carlinhos! Ele é super discreto, organizado
-          e sempre deixa tudo impecável. Pontualidade exemplar. Recomendo sem a menor hesitação.
-        </p>
-        <div class="depo-foot">
-          <div class="depo-av av-t">RS</div>
-          <div>
-            <div class="depo-name">Roberto Souza</div>
-            <div class="depo-loc">Empresário · Moema</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="depo-card" data-reveal data-reveal-delay="3">
-        <div class="depo-stars">★★★★★</div>
-        <p class="depo-text">
-          Sou mãe de dois e o Carlinhos é minha salvação toda semana! Pontual, atencioso e ainda dá dicas
-          de organização que nunca tinha pensado. Meu filho de 4 anos adora ele. Nota dez! ❤️
-        </p>
-        <div class="depo-foot">
-          <div class="depo-av av-s">JC</div>
-          <div>
-            <div class="depo-name">Juliana Costa</div>
-            <div class="depo-loc">Perdizes, São Paulo</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      ANTES & DEPOIS
 ============================================================ -->
-<section id="antes-depois">
-  <div class="container">
+  <section id="antes-depois">
+    <div class="container">
 
-    <div class="ad-head" data-reveal>
-      <span class="eyebrow">Resultados reais</span>
-      <h2 class="section-title">Antes <span class="italic">&amp;</span> Depois</h2>
-      <p class="section-lead">
-        Cada foto é a prova de um serviço feito com capricho. Olha só a diferença! ✨
-      </p>
-    </div>
+      <div class="ad-head" data-reveal>
+        <span class="eyebrow">Resultados reais</span>
+        <h2 class="section-title">Antes <span class="italic">&amp;</span> Depois</h2>
+        <p class="section-lead">
+          Cada foto é a prova de um serviço feito com capricho. Olha só a diferença! ✨
+        </p>
+      </div>
 
-    <div class="ad-stage" data-reveal data-reveal-delay="1">
+      <div class="ad-stage" data-reveal data-reveal-delay="1">
 
-      <!-- Track -->
-      <div class="ad-track-outer">
-        <div class="ad-track" id="ad-track">
+        <!-- Track -->
+        <div class="ad-track-outer">
+          <div class="ad-track" id="ad-track">
 
-          <!-- ── Slide 1 ── -->
-          <div class="ad-slide" data-label="Sala de estar">
-            <div class="ad-panel panel-before">
-              <span class="ad-label">Antes</span>
-              <!--
+            <!-- ── Slide 1 ── -->
+            <div class="ad-slide" data-label="Sala de estar">
+              <div class="ad-panel panel-before">
+                <span class="ad-label">Antes</span>
+                <!--
                 FOTO REAL: descomente a linha abaixo e remova o placeholder
                 <img class="ad-panel-img" src="fotos/sala-antes.jpg" alt="Sala antes da limpeza">
               -->
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">📷</span>
-                <span>Foto: sala antes</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">📷</span>
+                  <span>Foto: sala antes</span>
+                </div>
               </div>
-            </div>
-            <div class="ad-panel panel-after">
-              <span class="ad-label">Depois</span>
-              <!--
+              <div class="ad-panel panel-after">
+                <span class="ad-label">Depois</span>
+                <!--
                 <img class="ad-panel-img" src="fotos/sala-depois.jpg" alt="Sala depois da limpeza">
               -->
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">✨</span>
-                <span>Foto: sala depois</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">✨</span>
+                  <span>Foto: sala depois</span>
+                </div>
               </div>
-            </div>
-            <div class="ad-divider"><div class="ad-divider-icon">↔</div></div>
-            <div class="ad-caption">Sala de estar · Limpeza completa</div>
-          </div>
-
-          <!-- ── Slide 2 ── -->
-          <div class="ad-slide" data-label="Cozinha">
-            <div class="ad-panel panel-before">
-              <span class="ad-label">Antes</span>
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">📷</span>
-                <span>Foto: cozinha antes</span>
+              <div class="ad-divider">
+                <div class="ad-divider-icon">↔</div>
               </div>
+              <div class="ad-caption">Sala de estar · Limpeza completa</div>
             </div>
-            <div class="ad-panel panel-after">
-              <span class="ad-label">Depois</span>
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">✨</span>
-                <span>Foto: cozinha depois</span>
+
+            <!-- ── Slide 2 ── -->
+            <div class="ad-slide" data-label="Cozinha">
+              <div class="ad-panel panel-before">
+                <span class="ad-label">Antes</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">📷</span>
+                  <span>Foto: cozinha antes</span>
+                </div>
               </div>
-            </div>
-            <div class="ad-divider"><div class="ad-divider-icon">↔</div></div>
-            <div class="ad-caption">Cozinha · Faxina profunda</div>
-          </div>
-
-          <!-- ── Slide 3 ── -->
-          <div class="ad-slide" data-label="Banheiro">
-            <div class="ad-panel panel-before">
-              <span class="ad-label">Antes</span>
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">📷</span>
-                <span>Foto: banheiro antes</span>
+              <div class="ad-panel panel-after">
+                <span class="ad-label">Depois</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">✨</span>
+                  <span>Foto: cozinha depois</span>
+                </div>
               </div>
-            </div>
-            <div class="ad-panel panel-after">
-              <span class="ad-label">Depois</span>
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">✨</span>
-                <span>Foto: banheiro depois</span>
+              <div class="ad-divider">
+                <div class="ad-divider-icon">↔</div>
               </div>
+              <div class="ad-caption">Cozinha · Faxina profunda</div>
             </div>
-            <div class="ad-divider"><div class="ad-divider-icon">↔</div></div>
-            <div class="ad-caption">Banheiro · Higienização completa</div>
-          </div>
 
-          <!-- ── Slide 4 ── -->
-          <div class="ad-slide" data-label="Pós-obra">
-            <div class="ad-panel panel-before">
-              <span class="ad-label">Antes</span>
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">📷</span>
-                <span>Foto: pós-obra antes</span>
+            <!-- ── Slide 3 ── -->
+            <div class="ad-slide" data-label="Banheiro">
+              <div class="ad-panel panel-before">
+                <span class="ad-label">Antes</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">📷</span>
+                  <span>Foto: banheiro antes</span>
+                </div>
               </div>
-            </div>
-            <div class="ad-panel panel-after">
-              <span class="ad-label">Depois</span>
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">✨</span>
-                <span>Foto: pós-obra depois</span>
+              <div class="ad-panel panel-after">
+                <span class="ad-label">Depois</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">✨</span>
+                  <span>Foto: banheiro depois</span>
+                </div>
               </div>
-            </div>
-            <div class="ad-divider"><div class="ad-divider-icon">↔</div></div>
-            <div class="ad-caption">Limpeza pós-reforma · Resultado incrível</div>
-          </div>
-
-          <!-- ── Slide 5 ── -->
-          <div class="ad-slide" data-label="Quarto">
-            <div class="ad-panel panel-before">
-              <span class="ad-label">Antes</span>
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">📷</span>
-                <span>Foto: quarto antes</span>
+              <div class="ad-divider">
+                <div class="ad-divider-icon">↔</div>
               </div>
+              <div class="ad-caption">Banheiro · Higienização completa</div>
             </div>
-            <div class="ad-panel panel-after">
-              <span class="ad-label">Depois</span>
-              <div class="ad-panel-placeholder">
-                <span class="ph-emoji">✨</span>
-                <span>Foto: quarto depois</span>
+
+            <!-- ── Slide 4 ── -->
+            <div class="ad-slide" data-label="Pós-obra">
+              <div class="ad-panel panel-before">
+                <span class="ad-label">Antes</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">📷</span>
+                  <span>Foto: pós-obra antes</span>
+                </div>
               </div>
+              <div class="ad-panel panel-after">
+                <span class="ad-label">Depois</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">✨</span>
+                  <span>Foto: pós-obra depois</span>
+                </div>
+              </div>
+              <div class="ad-divider">
+                <div class="ad-divider-icon">↔</div>
+              </div>
+              <div class="ad-caption">Limpeza pós-reforma · Resultado incrível</div>
             </div>
-            <div class="ad-divider"><div class="ad-divider-icon">↔</div></div>
-            <div class="ad-caption">Quarto · Organização e limpeza</div>
-          </div>
 
-        </div><!-- /ad-track -->
-      </div><!-- /ad-track-outer -->
+            <!-- ── Slide 5 ── -->
+            <div class="ad-slide" data-label="Quarto">
+              <div class="ad-panel panel-before">
+                <span class="ad-label">Antes</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">📷</span>
+                  <span>Foto: quarto antes</span>
+                </div>
+              </div>
+              <div class="ad-panel panel-after">
+                <span class="ad-label">Depois</span>
+                <div class="ad-panel-placeholder">
+                  <span class="ph-emoji">✨</span>
+                  <span>Foto: quarto depois</span>
+                </div>
+              </div>
+              <div class="ad-divider">
+                <div class="ad-divider-icon">↔</div>
+              </div>
+              <div class="ad-caption">Quarto · Organização e limpeza</div>
+            </div>
 
-      <!-- Arrows -->
-      <button class="ad-arrow ad-arrow-prev" id="ad-prev" aria-label="Foto anterior">◀</button>
-      <button class="ad-arrow ad-arrow-next" id="ad-next" aria-label="Próxima foto">▶</button>
+          </div><!-- /ad-track -->
+        </div><!-- /ad-track-outer -->
 
-    </div><!-- /ad-stage -->
+        <!-- Arrows -->
+        <button class="ad-arrow ad-arrow-prev" id="ad-prev" aria-label="Foto anterior">◀</button>
+        <button class="ad-arrow ad-arrow-next" id="ad-next" aria-label="Próxima foto">▶</button>
 
-    <!-- Dots -->
-    <div class="ad-dots" id="ad-dots" role="tablist" aria-label="Navegar entre fotos"></div>
+      </div><!-- /ad-stage -->
 
-    <!-- Counter -->
-    <div class="ad-counter">
-      Resultado <span id="ad-cur">1</span> de <span id="ad-total">5</span>
+      <!-- Dots -->
+      <div class="ad-dots" id="ad-dots" role="tablist" aria-label="Navegar entre fotos"></div>
+
+      <!-- Counter -->
+      <div class="ad-counter">
+        Resultado <span id="ad-cur">1</span> de <span id="ad-total">5</span>
+      </div>
+
+      <p class="ad-swipe-hint">← Deslize para ver mais →</p>
+
     </div>
-
-    <p class="ad-swipe-hint">← Deslize para ver mais →</p>
-
-  </div>
-</section>
+  </section>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      CTA BAND
 ============================================================ -->
-<section id="cta-band">
-  <div class="container">
-    <div class="cta-inner" data-reveal>
-      <h2 class="section-title">Pronto pra deixar seu<br>espaço incrível.</h2>
-      <p class="section-lead">
-        Me chama agora pelo WhatsApp. Orçamento grátis, sem compromisso e
-        sem enrolação — prometo responder rápido! 😊
-      </p>
-      <div class="cta-actions">
-        <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
-           class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
-          💬 Chamar o Carlinhos agora!
-        </a>
-        <a href="#contato" class="btn btn-ghost-inv">
-          Enviar mensagem
-        </a>
+  <section id="cta-band">
+    <div class="container">
+      <div class="cta-inner" data-reveal>
+        <h2 class="section-title">Pronto pra deixar seu<br>espaço incrível.</h2>
+        <p class="section-lead">
+          Me chama agora pelo WhatsApp. Orçamento grátis, sem compromisso e
+          sem enrolação — prometo responder rápido! 😊
+        </p>
+        <div class="cta-actions">
+          <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
+            class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+            💬 Chamar o Carlinhos agora!
+          </a>
+          <a href="#contato" class="btn btn-ghost-inv">
+            Enviar mensagem
+          </a>
+        </div>
+        <p class="cta-footnote">⏱ Respondo em menos de 1 hora no horário comercial</p>
       </div>
-      <p class="cta-footnote">⏱ Respondo em menos de 1 hora no horário comercial</p>
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      CONTATO
 ============================================================ -->
-<section id="contato">
-  <div class="container">
-    <div class="section-header" style="margin-bottom:64px">
-      <div data-reveal>
-        <span class="eyebrow">Contato</span>
-        <h2 class="section-title">Bora conversar? 😊</h2>
-        <p class="section-lead">
-          Me manda uma mensagem pelo WhatsApp ou preenche o formulário aqui embaixo.
-          Adoro conhecer pessoas novas e ajudar a manter o espaço de vocês em dia!
-        </p>
+  <section id="contato">
+    <div class="container">
+      <div class="section-header" style="margin-bottom:64px">
+        <div data-reveal>
+          <span class="eyebrow">Contato</span>
+          <h2 class="section-title">Bora conversar? 😊</h2>
+          <p class="section-lead">
+            Me manda uma mensagem pelo WhatsApp ou preenche o formulário aqui embaixo.
+            Adoro conhecer pessoas novas e ajudar a manter o espaço de vocês em dia!
+          </p>
+        </div>
+      </div>
+
+      <div class="contato-grid">
+
+        <!-- Left info -->
+        <div class="contato-left" data-reveal>
+          <div class="contact-item">
+            <div class="contact-icon ci-wa">📱</div>
+            <div>
+              <div class="contact-label">WhatsApp</div>
+              <div class="contact-value">(11) 99999-9999</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon ci-gold">📧</div>
+            <div>
+              <div class="contact-label">E-mail</div>
+              <div class="contact-value">carlinhos.limpeza@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon ci-teal">📍</div>
+            <div>
+              <div class="contact-label">Área de atendimento</div>
+              <div class="contact-value">São Paulo e região</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon ci-dark">⏰</div>
+            <div>
+              <div class="contact-label">Horário</div>
+              <div class="contact-value">Segunda a Sábado · 7h às 18h</div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
+            class="contato-wa-card" target="_blank" rel="noopener noreferrer">
+            <div class="wa-card-icon"><i class="ph-fill ph-whatsapp-logo"></i></div>
+            <div class="wa-card-text">
+              <div class="wa-card-label">Resposta mais rápida</div>
+              <div class="wa-card-num">(11) 99999-9999</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Form -->
+        <div class="contato-form" data-reveal data-reveal-delay="1">
+          <div class="form-header">
+            <h3>Manda uma mensagem 💌</h3>
+            <p>Preencha abaixo e entro em contato rapidinho pelo WhatsApp!</p>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="f-nome">Seu nome 😊</label>
+              <input type="text" id="f-nome" name="nome" placeholder="Como posso te chamar?"
+                autocomplete="given-name" />
+            </div>
+            <div class="form-group">
+              <label for="f-tel">Seu WhatsApp</label>
+              <input type="tel" id="f-tel" name="tel" placeholder="(11) 99999-9999" autocomplete="tel" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="f-svc">Que serviço você precisa?</label>
+            <div class="select-wrap">
+              <select id="f-svc" name="servico">
+                <option value="">Escolha uma opção...</option>
+                <option value="residencial">🏠 Limpeza Residencial</option>
+                <option value="comercial">🏢 Limpeza Comercial</option>
+                <option value="pos-obra">🔨 Limpeza Pós-Obra</option>
+                <option value="higienizacao">🛋️ Higienização de Sofás / Colchões / Tapetes</option>
+                <option value="mudanca">📦 Limpeza de Mudança</option>
+                <option value="fixa">📅 Diarista Fixa (semanal / quinzenal)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="f-msg">Quer me contar mais? <span style="color:var(--mist)">(opcional)</span></label>
+            <textarea id="f-msg" name="mensagem"
+              placeholder="Tamanho do espaço, frequência desejada, qualquer detalhe..."></textarea>
+          </div>
+
+          <button class="btn btn-wa form-submit-btn" id="form-submit-btn" type="button">
+            📲 Enviar pelo WhatsApp
+          </button>
+        </div>
+
       </div>
     </div>
-
-    <div class="contato-grid">
-
-      <!-- Left info -->
-      <div class="contato-left" data-reveal>
-        <div class="contact-item">
-          <div class="contact-icon ci-wa">📱</div>
-          <div>
-            <div class="contact-label">WhatsApp</div>
-            <div class="contact-value">(11) 99999-9999</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon ci-gold">📧</div>
-          <div>
-            <div class="contact-label">E-mail</div>
-            <div class="contact-value">carlinhos.limpeza@gmail.com</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon ci-teal">📍</div>
-          <div>
-            <div class="contact-label">Área de atendimento</div>
-            <div class="contact-value">São Paulo e região</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon ci-dark">⏰</div>
-          <div>
-            <div class="contact-label">Horário</div>
-            <div class="contact-value">Segunda a Sábado · 7h às 18h</div>
-          </div>
-        </div>
-
-        <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
-           class="contato-wa-card" target="_blank" rel="noopener noreferrer">
-          <div class="wa-card-icon"><i class="ph-fill ph-whatsapp-logo"></i></div>
-          <div class="wa-card-text">
-            <div class="wa-card-label">Resposta mais rápida</div>
-            <div class="wa-card-num">(11) 99999-9999</div>
-          </div>
-        </a>
-      </div>
-
-      <!-- Form -->
-      <div class="contato-form" data-reveal data-reveal-delay="1">
-        <div class="form-header">
-          <h3>Manda uma mensagem 💌</h3>
-          <p>Preencha abaixo e entro em contato rapidinho pelo WhatsApp!</p>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group">
-            <label for="f-nome">Seu nome 😊</label>
-            <input type="text" id="f-nome" name="nome" placeholder="Como posso te chamar?" autocomplete="given-name" />
-          </div>
-          <div class="form-group">
-            <label for="f-tel">Seu WhatsApp</label>
-            <input type="tel" id="f-tel" name="tel" placeholder="(11) 99999-9999" autocomplete="tel" />
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="f-svc">Que serviço você precisa?</label>
-          <div class="select-wrap">
-            <select id="f-svc" name="servico">
-              <option value="">Escolha uma opção...</option>
-              <option value="residencial">🏠 Limpeza Residencial</option>
-              <option value="comercial">🏢 Limpeza Comercial</option>
-              <option value="pos-obra">🔨 Limpeza Pós-Obra</option>
-              <option value="higienizacao">🛋️ Higienização de Sofás / Colchões / Tapetes</option>
-              <option value="mudanca">📦 Limpeza de Mudança</option>
-              <option value="fixa">📅 Diarista Fixa (semanal / quinzenal)</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="f-msg">Quer me contar mais? <span style="color:var(--mist)">(opcional)</span></label>
-          <textarea id="f-msg" name="mensagem" placeholder="Tamanho do espaço, frequência desejada, qualquer detalhe..."></textarea>
-        </div>
-
-        <button class="btn btn-wa form-submit-btn" id="form-submit-btn" type="button">
-          📲 Enviar pelo WhatsApp
-        </button>
-      </div>
-
-    </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      FOOTER
 ============================================================ -->
-<footer>
-  <div class="container">
-    <div class="footer-inner">
-      <div>
-        <div class="footer-brand">
-          <span class="logo-dot"></span>
-          Carlinhos Diarista
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">
+            <span class="logo-dot"></span>
+            Carlinhos Diarista
+          </div>
+          <div class="footer-tagline">Seu espaço, cuidado com carinho. ✦ São Paulo, SP</div>
         </div>
-        <div class="footer-tagline">Seu espaço, cuidado com carinho. ✦ São Paulo, SP</div>
+        <nav class="footer-links" aria-label="Links do rodapé">
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#contato">Contato</a>
+        </nav>
       </div>
-      <nav class="footer-links" aria-label="Links do rodapé">
-        <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#depoimentos">Depoimentos</a>
-        <a href="#contato">Contato</a>
-      </nav>
+      <div class="footer-copy">
+        <p>© 2025 Carlos Silva · Todos os direitos reservados</p>
+        <p>Feito com muito capricho 🧹</p>
+      </div>
     </div>
-    <div class="footer-copy">
-      <p>© 2025 Carlos Silva · Todos os direitos reservados</p>
-      <p>Feito com muito capricho 🧹</p>
-    </div>
-  </div>
-</footer>
+  </footer>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      FLOATING WA
 ============================================================ -->
-<a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
-   class="wa-float"
-   target="_blank"
-   rel="noopener noreferrer"
-   aria-label="Chamar o Carlinhos no WhatsApp">
-  <div class="wa-float-pulse"></div>
-  <i class="ph-fill ph-whatsapp-logo"></i>
-  <div class="wa-tooltip">Falar no WhatsApp</div>
-</a>
+  <a href="https://wa.me/5511999999999?text=Oi%20Carlinhos!%20Vi%20seu%20site%20e%20quero%20um%20orçamento%20😊"
+    class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chamar o Carlinhos no WhatsApp">
+    <div class="wa-float-pulse"></div>
+    <i class="ph-fill ph-whatsapp-logo"></i>
+    <div class="wa-tooltip">Falar no WhatsApp</div>
+  </a>
 
 
-<!-- ============================================================
+  <!-- ============================================================
      SCRIPTS
 ============================================================ -->
-<script>
-  'use strict';
+  <script>
+    'use strict';
 
-  /* ─── Utility helpers ─── */
-  const qs  = (s, c = document) => c.querySelector(s);
-  const qsa = (s, c = document) => [...c.querySelectorAll(s)];
+    /* ─── Utility helpers ─── */
+    const qs = (s, c = document) => c.querySelector(s);
+    const qsa = (s, c = document) => [...c.querySelectorAll(s)];
 
-  /* ─── Progress bar ─── */
-  const progressBar = qs('#progress-bar');
-  function updateProgress() {
-    const scrolled = window.scrollY;
-    const total    = document.documentElement.scrollHeight - window.innerHeight;
-    progressBar.style.width = total > 0 ? `${(scrolled / total) * 100}%` : '0%';
-  }
-  window.addEventListener('scroll', updateProgress, { passive: true });
-
-  /* ─── Sticky header on scroll ─── */
-  const header = qs('#site-header');
-  function updateHeader() {
-    header.classList.toggle('scrolled', window.scrollY > 24);
-  }
-  window.addEventListener('scroll', updateHeader, { passive: true });
-  updateHeader();
-
-  /* ─── Mobile nav ─── */
-  const burger = qs('#nav-burger');
-  const drawer = qs('#nav-drawer');
-
-  function closeDrawer() {
-    burger.classList.remove('open');
-    drawer.classList.remove('open');
-    burger.setAttribute('aria-expanded', 'false');
-    document.body.style.overflow = '';
-  }
-
-  burger.addEventListener('click', () => {
-    const isOpen = drawer.classList.toggle('open');
-    burger.classList.toggle('open', isOpen);
-    burger.setAttribute('aria-expanded', String(isOpen));
-    document.body.style.overflow = isOpen ? 'hidden' : '';
-  });
-
-  qsa('.drawer-link', drawer).forEach(link =>
-    link.addEventListener('click', closeDrawer)
-  );
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeDrawer();
-  });
-
-  /* ─── Scroll reveal ─── */
-  const revealObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        revealObserver.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.10, rootMargin: '0px 0px -40px 0px' });
-
-  qsa('[data-reveal]').forEach(el => revealObserver.observe(el));
-
-  /* ─── Count-up animation for hero stats ─── */
-  function animateCount(el) {
-    const target   = parseInt(el.dataset.count, 10);
-    const duration = 1800;
-    const step     = 16;
-    const increment = target / (duration / step);
-    let current = 0;
-
-    const suffix = el.dataset.count === '5' ? '+' : '+';
-    const interval = setInterval(() => {
-      current += increment;
-      if (current >= target) {
-        el.textContent = target + suffix;
-        clearInterval(interval);
-      } else {
-        el.textContent = Math.floor(current) + suffix;
-      }
-    }, step);
-  }
-
-  // Trigger count animation when hero stats enter viewport
-  const statsObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        qsa('[data-count]').forEach(animateCount);
-        statsObserver.disconnect();
-      }
-    });
-  }, { threshold: 0.5 });
-
-  const statsSection = qs('.hero-stats');
-  if (statsSection) statsObserver.observe(statsSection);
-
-  /* ─── Toast notification ─── */
-  const toast    = qs('#toast');
-  const toastMsg = qs('#toast-msg');
-  let toastTimer = null;
-
-  function showToast(msg, duration = 3500) {
-    toastMsg.textContent = msg;
-    toast.classList.add('show');
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => toast.classList.remove('show'), duration);
-  }
-
-  /* ─── Form → WhatsApp ─── */
-  const PHONE = '5511999999999';
-
-  function maskPhone(input) {
-    let v = input.value.replace(/\D/g, '').slice(0, 11);
-    if (v.length >= 7) {
-      v = `(${v.slice(0,2)}) ${v.slice(2,7)}-${v.slice(7)}`;
-    } else if (v.length >= 3) {
-      v = `(${v.slice(0,2)}) ${v.slice(2)}`;
-    } else if (v.length >= 1) {
-      v = `(${v}`;
+    /* ─── Progress bar ─── */
+    const progressBar = qs('#progress-bar');
+    function updateProgress() {
+      const scrolled = window.scrollY;
+      const total = document.documentElement.scrollHeight - window.innerHeight;
+      progressBar.style.width = total > 0 ? `${(scrolled / total) * 100}%` : '0%';
     }
-    input.value = v;
-  }
+    window.addEventListener('scroll', updateProgress, { passive: true });
 
-  const telInput = qs('#f-tel');
-  if (telInput) {
-    telInput.addEventListener('input', () => maskPhone(telInput));
-  }
-
-  function getFieldValue(id) {
-    return (qs(`#${id}`)?.value ?? '').trim();
-  }
-
-  function setError(id, msg) {
-    const el = qs(`#${id}`);
-    if (!el) return;
-    el.style.borderColor = '#ef4444';
-    el.style.boxShadow   = '0 0 0 3px rgba(239,68,68,.12)';
-    const errEl = el.parentElement.querySelector('.field-error');
-    if (!errEl) {
-      const span = document.createElement('span');
-      span.className   = 'field-error';
-      span.style.cssText = 'font-size:.75rem;color:#ef4444;margin-top:4px;display:block;';
-      span.textContent = msg;
-      el.parentElement.appendChild(span);
+    /* ─── Sticky header on scroll ─── */
+    const header = qs('#site-header');
+    function updateHeader() {
+      header.classList.toggle('scrolled', window.scrollY > 24);
     }
-  }
+    window.addEventListener('scroll', updateHeader, { passive: true });
+    updateHeader();
 
-  function clearErrors() {
-    qsa('input, textarea, select').forEach(el => {
-      el.style.borderColor = '';
-      el.style.boxShadow   = '';
-    });
-    qsa('.field-error').forEach(e => e.remove());
-  }
+    /* ─── Mobile nav ─── */
+    const burger = qs('#nav-burger');
+    const drawer = qs('#nav-drawer');
 
-  qs('#form-submit-btn')?.addEventListener('click', () => {
-    clearErrors();
-
-    const nome = getFieldValue('f-nome');
-    const tel  = getFieldValue('f-tel');
-    const svc  = getFieldValue('f-svc');
-    const msg  = getFieldValue('f-msg');
-
-    let valid = true;
-
-    if (!nome) { setError('f-nome', 'Por favor, informe seu nome.'); valid = false; }
-    if (!tel || tel.replace(/\D/g, '').length < 10) {
-      setError('f-tel', 'Informe um número de WhatsApp válido.'); valid = false;
+    function closeDrawer() {
+      burger.classList.remove('open');
+      drawer.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
     }
 
-    if (!valid) {
-      showToast('Preencha os campos obrigatórios 😊');
-      return;
-    }
-
-    const svcLabel = svc || 'Ainda vou decidir';
-    const text = [
-      `Oi Carlinhos! Meu nome é *${nome}* 😊`,
-      `📱 WhatsApp para contato: ${tel}`,
-      `🧹 Serviço de interesse: ${svcLabel}`,
-      msg ? `💬 Observação: ${msg}` : null,
-      `📌 _Mensagem enviada pelo site_`,
-    ].filter(Boolean).join('\n');
-
-    const url = `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
-    window.open(url, '_blank', 'noopener,noreferrer');
-    showToast('Redirecionando para o WhatsApp... 🚀');
-  });
-
-  /* ─── Smooth scroll for anchor links ─── */
-  document.addEventListener('click', e => {
-    const anchor = e.target.closest('a[href^="#"]');
-    if (!anchor) return;
-    const target = qs(anchor.getAttribute('href'));
-    if (!target) return;
-    e.preventDefault();
-    const offset = target.getBoundingClientRect().top + window.scrollY - 80;
-    window.scrollTo({ top: offset, behavior: 'smooth' });
-  });
-
-  /* ─── Active nav link highlighting ─── */
-  const sections  = qsa('section[id]');
-  const navAnchors = qsa('.nav-links a');
-
-  const sectionObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      navAnchors.forEach(a => {
-        const active = a.getAttribute('href') === `#${entry.target.id}`;
-        a.style.color      = active ? 'var(--ink)'     : '';
-        a.style.background = active ? 'var(--chalk)'   : '';
-      });
-    });
-  }, { rootMargin: '-40% 0px -55% 0px' });
-
-  sections.forEach(s => sectionObserver.observe(s));
-
-  /* ─── Subtle parallax on hero circles ─── */
-  const hbc1 = qs('.hbc-1');
-  const hbc2 = qs('.hbc-2');
-
-  if (hbc1 && hbc2) {
-    let ticking = false;
-    window.addEventListener('scroll', () => {
-      if (!ticking) {
-        requestAnimationFrame(() => {
-          const y = window.scrollY;
-          hbc1.style.transform = `translateY(${y * 0.18}px)`;
-          hbc2.style.transform = `translateY(${-y * 0.12}px)`;
-          ticking = false;
-        });
-        ticking = true;
-      }
-    }, { passive: true });
-  }
-
-  /* ─── Antes & Depois Slider ─── */
-  (function () {
-    const track    = qs('#ad-track');
-    const dotsWrap = qs('#ad-dots');
-    const curEl    = qs('#ad-cur');
-    const totalEl  = qs('#ad-total');
-    const btnPrev  = qs('#ad-prev');
-    const btnNext  = qs('#ad-next');
-
-    if (!track) return;
-
-    const slides = qsa('.ad-slide', track);
-    const total  = slides.length;
-    let current  = 0;
-    let isAnimating = false;
-    let autoTimer   = null;
-
-    totalEl.textContent = total;
-
-    /* Build dot buttons */
-    slides.forEach((_, i) => {
-      const dot = document.createElement('button');
-      dot.className  = 'ad-dot' + (i === 0 ? ' active' : '');
-      dot.setAttribute('role', 'tab');
-      dot.setAttribute('aria-label', `Resultado ${i + 1}`);
-      dot.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
-      dot.addEventListener('click', () => goTo(i));
-      dotsWrap.appendChild(dot);
+    burger.addEventListener('click', () => {
+      const isOpen = drawer.classList.toggle('open');
+      burger.classList.toggle('open', isOpen);
+      burger.setAttribute('aria-expanded', String(isOpen));
+      document.body.style.overflow = isOpen ? 'hidden' : '';
     });
 
-    function getDots() { return qsa('.ad-dot', dotsWrap); }
-
-    function updateUI() {
-      /* counter */
-      curEl.textContent = current + 1;
-
-      /* dots */
-      getDots().forEach((d, i) => {
-        d.classList.toggle('active', i === current);
-        d.setAttribute('aria-selected', i === current ? 'true' : 'false');
-      });
-
-      /* arrows — loop so never disabled */
-      btnPrev.disabled = false;
-      btnNext.disabled = false;
-    }
-
-    function goTo(index, direction) {
-      if (isAnimating) return;
-      isAnimating = true;
-
-      /* Wrap around */
-      current = ((index % total) + total) % total;
-
-      track.style.transform = `translateX(-${current * 100}%)`;
-      updateUI();
-
-      /* unlock after transition */
-      setTimeout(() => { isAnimating = false; }, 680);
-    }
-
-    function next() { goTo(current + 1); }
-    function prev() { goTo(current - 1); }
-
-    btnNext.addEventListener('click', () => { next(); resetAuto(); });
-    btnPrev.addEventListener('click', () => { prev(); resetAuto(); });
-
-    /* Keyboard support */
+    qsa('.drawer-link', drawer).forEach(link =>
+      link.addEventListener('click', closeDrawer)
+    );
     document.addEventListener('keydown', e => {
-      const stage = qs('#antes-depois');
-      if (!stage) return;
-      const rect = stage.getBoundingClientRect();
-      const visible = rect.top < window.innerHeight && rect.bottom > 0;
-      if (!visible) return;
-      if (e.key === 'ArrowRight') { next(); resetAuto(); }
-      if (e.key === 'ArrowLeft')  { prev(); resetAuto(); }
+      if (e.key === 'Escape') closeDrawer();
     });
 
-    /* Touch / swipe */
-    let touchStartX = 0;
-    let touchDeltaX = 0;
+    /* ─── Scroll reveal ─── */
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.10, rootMargin: '0px 0px -40px 0px' });
 
-    track.addEventListener('touchstart', e => {
-      touchStartX = e.touches[0].clientX;
-      touchDeltaX = 0;
-    }, { passive: true });
+    qsa('[data-reveal]').forEach(el => revealObserver.observe(el));
 
-    track.addEventListener('touchmove', e => {
-      touchDeltaX = e.touches[0].clientX - touchStartX;
-    }, { passive: true });
+    /* ─── Count-up animation for hero stats ─── */
+    function animateCount(el) {
+      const target = parseInt(el.dataset.count, 10);
+      const duration = 1800;
+      const step = 16;
+      const increment = target / (duration / step);
+      let current = 0;
 
-    track.addEventListener('touchend', () => {
-      if (Math.abs(touchDeltaX) > 50) {
-        touchDeltaX < 0 ? next() : prev();
-        resetAuto();
+      const suffix = el.dataset.count === '5' ? '+' : '+';
+      const interval = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+          el.textContent = target + suffix;
+          clearInterval(interval);
+        } else {
+          el.textContent = Math.floor(current) + suffix;
+        }
+      }, step);
+    }
+
+    // Trigger count animation when hero stats enter viewport
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          qsa('[data-count]').forEach(animateCount);
+          statsObserver.disconnect();
+        }
+      });
+    }, { threshold: 0.5 });
+
+    const statsSection = qs('.hero-stats');
+    if (statsSection) statsObserver.observe(statsSection);
+
+    /* ─── Toast notification ─── */
+    const toast = qs('#toast');
+    const toastMsg = qs('#toast-msg');
+    let toastTimer = null;
+
+    function showToast(msg, duration = 3500) {
+      toastMsg.textContent = msg;
+      toast.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove('show'), duration);
+    }
+
+    /* ─── Form → WhatsApp ─── */
+    const PHONE = '5511999999999';
+
+    function maskPhone(input) {
+      let v = input.value.replace(/\D/g, '').slice(0, 11);
+      if (v.length >= 7) {
+        v = `(${v.slice(0, 2)}) ${v.slice(2, 7)}-${v.slice(7)}`;
+      } else if (v.length >= 3) {
+        v = `(${v.slice(0, 2)}) ${v.slice(2)}`;
+      } else if (v.length >= 1) {
+        v = `(${v}`;
       }
+      input.value = v;
+    }
+
+    const telInput = qs('#f-tel');
+    if (telInput) {
+      telInput.addEventListener('input', () => maskPhone(telInput));
+    }
+
+    function getFieldValue(id) {
+      return (qs(`#${id}`)?.value ?? '').trim();
+    }
+
+    function setError(id, msg) {
+      const el = qs(`#${id}`);
+      if (!el) return;
+      el.style.borderColor = '#ef4444';
+      el.style.boxShadow = '0 0 0 3px rgba(239,68,68,.12)';
+      const errEl = el.parentElement.querySelector('.field-error');
+      if (!errEl) {
+        const span = document.createElement('span');
+        span.className = 'field-error';
+        span.style.cssText = 'font-size:.75rem;color:#ef4444;margin-top:4px;display:block;';
+        span.textContent = msg;
+        el.parentElement.appendChild(span);
+      }
+    }
+
+    function clearErrors() {
+      qsa('input, textarea, select').forEach(el => {
+        el.style.borderColor = '';
+        el.style.boxShadow = '';
+      });
+      qsa('.field-error').forEach(e => e.remove());
+    }
+
+    qs('#form-submit-btn')?.addEventListener('click', () => {
+      clearErrors();
+
+      const nome = getFieldValue('f-nome');
+      const tel = getFieldValue('f-tel');
+      const svc = getFieldValue('f-svc');
+      const msg = getFieldValue('f-msg');
+
+      let valid = true;
+
+      if (!nome) { setError('f-nome', 'Por favor, informe seu nome.'); valid = false; }
+      if (!tel || tel.replace(/\D/g, '').length < 10) {
+        setError('f-tel', 'Informe um número de WhatsApp válido.'); valid = false;
+      }
+
+      if (!valid) {
+        showToast('Preencha os campos obrigatórios 😊');
+        return;
+      }
+
+      const svcLabel = svc || 'Ainda vou decidir';
+      const text = [
+        `Oi Carlinhos! Meu nome é *${nome}* 😊`,
+        `📱 WhatsApp para contato: ${tel}`,
+        `🧹 Serviço de interesse: ${svcLabel}`,
+        msg ? `💬 Observação: ${msg}` : null,
+        `📌 _Mensagem enviada pelo site_`,
+      ].filter(Boolean).join('\n');
+
+      const url = `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank', 'noopener,noreferrer');
+      showToast('Redirecionando para o WhatsApp... 🚀');
     });
 
-    /* Auto-advance every 4 seconds */
-    function startAuto() {
-      autoTimer = setInterval(next, 4000);
+    /* ─── Smooth scroll for anchor links ─── */
+    document.addEventListener('click', e => {
+      const anchor = e.target.closest('a[href^="#"]');
+      if (!anchor) return;
+      const target = qs(anchor.getAttribute('href'));
+      if (!target) return;
+      e.preventDefault();
+      const offset = target.getBoundingClientRect().top + window.scrollY - 80;
+      window.scrollTo({ top: offset, behavior: 'smooth' });
+    });
+
+    /* ─── Active nav link highlighting ─── */
+    const sections = qsa('section[id]');
+    const navAnchors = qsa('.nav-links a');
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        navAnchors.forEach(a => {
+          const active = a.getAttribute('href') === `#${entry.target.id}`;
+          a.style.color = active ? 'var(--ink)' : '';
+          a.style.background = active ? 'var(--chalk)' : '';
+        });
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+
+    sections.forEach(s => sectionObserver.observe(s));
+
+    /* ─── Subtle parallax on hero circles ─── */
+    const hbc1 = qs('.hbc-1');
+    const hbc2 = qs('.hbc-2');
+
+    if (hbc1 && hbc2) {
+      let ticking = false;
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          requestAnimationFrame(() => {
+            const y = window.scrollY;
+            hbc1.style.transform = `translateY(${y * 0.18}px)`;
+            hbc2.style.transform = `translateY(${-y * 0.12}px)`;
+            ticking = false;
+          });
+          ticking = true;
+        }
+      }, { passive: true });
     }
-    function resetAuto() {
-      clearInterval(autoTimer);
+
+    /* ─── Antes & Depois Slider ─── */
+    (function () {
+      const track = qs('#ad-track');
+      const dotsWrap = qs('#ad-dots');
+      const curEl = qs('#ad-cur');
+      const totalEl = qs('#ad-total');
+      const btnPrev = qs('#ad-prev');
+      const btnNext = qs('#ad-next');
+
+      if (!track) return;
+
+      const slides = qsa('.ad-slide', track);
+      const total = slides.length;
+      let current = 0;
+      let isAnimating = false;
+      let autoTimer = null;
+
+      totalEl.textContent = total;
+
+      /* Build dot buttons */
+      slides.forEach((_, i) => {
+        const dot = document.createElement('button');
+        dot.className = 'ad-dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('role', 'tab');
+        dot.setAttribute('aria-label', `Resultado ${i + 1}`);
+        dot.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+        dot.addEventListener('click', () => goTo(i));
+        dotsWrap.appendChild(dot);
+      });
+
+      function getDots() { return qsa('.ad-dot', dotsWrap); }
+
+      function updateUI() {
+        /* counter */
+        curEl.textContent = current + 1;
+
+        /* dots */
+        getDots().forEach((d, i) => {
+          d.classList.toggle('active', i === current);
+          d.setAttribute('aria-selected', i === current ? 'true' : 'false');
+        });
+
+        /* arrows — loop so never disabled */
+        btnPrev.disabled = false;
+        btnNext.disabled = false;
+      }
+
+      function goTo(index, direction) {
+        if (isAnimating) return;
+        isAnimating = true;
+
+        /* Wrap around */
+        current = ((index % total) + total) % total;
+
+        track.style.transform = `translateX(-${current * 100}%)`;
+        updateUI();
+
+        /* unlock after transition */
+        setTimeout(() => { isAnimating = false; }, 680);
+      }
+
+      function next() { goTo(current + 1); }
+      function prev() { goTo(current - 1); }
+
+      btnNext.addEventListener('click', () => { next(); resetAuto(); });
+      btnPrev.addEventListener('click', () => { prev(); resetAuto(); });
+
+      /* Keyboard support */
+      document.addEventListener('keydown', e => {
+        const stage = qs('#antes-depois');
+        if (!stage) return;
+        const rect = stage.getBoundingClientRect();
+        const visible = rect.top < window.innerHeight && rect.bottom > 0;
+        if (!visible) return;
+        if (e.key === 'ArrowRight') { next(); resetAuto(); }
+        if (e.key === 'ArrowLeft') { prev(); resetAuto(); }
+      });
+
+      /* Touch / swipe */
+      let touchStartX = 0;
+      let touchDeltaX = 0;
+
+      track.addEventListener('touchstart', e => {
+        touchStartX = e.touches[0].clientX;
+        touchDeltaX = 0;
+      }, { passive: true });
+
+      track.addEventListener('touchmove', e => {
+        touchDeltaX = e.touches[0].clientX - touchStartX;
+      }, { passive: true });
+
+      track.addEventListener('touchend', () => {
+        if (Math.abs(touchDeltaX) > 50) {
+          touchDeltaX < 0 ? next() : prev();
+          resetAuto();
+        }
+      });
+
+      /* Auto-advance every 4 seconds */
+      function startAuto() {
+        autoTimer = setInterval(next, 4000);
+      }
+      function resetAuto() {
+        clearInterval(autoTimer);
+        startAuto();
+      }
+
+      /* Pause on hover / focus */
+      const stage = qs('#antes-depois');
+      stage.addEventListener('mouseenter', () => clearInterval(autoTimer));
+      stage.addEventListener('mouseleave', startAuto);
+      stage.addEventListener('focusin', () => clearInterval(autoTimer));
+      stage.addEventListener('focusout', startAuto);
+
+      /* Init */
+      updateUI();
       startAuto();
-    }
-
-    /* Pause on hover / focus */
-    const stage = qs('#antes-depois');
-    stage.addEventListener('mouseenter', () => clearInterval(autoTimer));
-    stage.addEventListener('mouseleave', startAuto);
-    stage.addEventListener('focusin',   () => clearInterval(autoTimer));
-    stage.addEventListener('focusout',  startAuto);
-
-    /* Init */
-    updateUI();
-    startAuto();
-  })();
-</script>
+    })();
+  </script>
 
 </body>
+
 </html>
